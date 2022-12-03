@@ -21,7 +21,7 @@
 
 # 📖 Marco Almada's Portfolio <a name="about-project"></a>
 
-> This is the first step to build my portfolio website.
+This is the first step to build my portfolio website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -29,17 +29,11 @@
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Marco Almada**
 
 - GitHub: [@MarcoDDM](https://github.com/MarcoDDM)
 - Twitter: [@nerdpiola](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/marcoalmadaar)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
