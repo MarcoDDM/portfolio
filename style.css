@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body {
-    width: 375px;
+  width: 375px;
 }
+
 .logo {
   position: absolute;
   width: 111px;
@@ -31,7 +33,7 @@ h1 {
   height: 100px;
   left: 20px;
   top: 90px;
-  font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif;
+  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
   font-size: 34px;
   color: #1a2236;
 }
@@ -46,7 +48,7 @@ h2 {
   height: 126px;
   left: 26px;
   top: 300px;
-  font-family: Poppins, 'Times New Roman', Times, serif;
+  font-family: Poppins, "Times New Roman", Times, serif;
   font-style: normal;
   font-size: 10px;
   line-height: 21px;
@@ -62,7 +64,7 @@ h2 {
   left: 10px;
   top: 300px;
   background: #1a2236;
-  font-family: Poppins, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
