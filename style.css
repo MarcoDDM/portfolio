@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.logo {
+  position: absolute;
+  width: 111px;
+  height: 74px;
+  left: 0;
+  top: 0;
+}
+
+.hamburger {
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  left: 310px;
+  top: 19px;
+  margin-left: 16px;
+}
+
+h1 {
+  font-weight: 100;
+  line-height: 95%;
+}
+
+.headline {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 20px;
+  top: 90px;
+  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+  font-size: 34px;
+  color: #1a2236;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+.description {
+  position: absolute;
+  width: 288px;
+  height: 126px;
+  left: 26px;
+  top: 300px;
+  font-family: Poppins, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+.collab {
+  box-sizing: border-box;
+  position: absolute;
+  width: 320px;
+  height: 50px;
+  left: 20px;
+  top: 480px;
+  background: #1a2236;
+  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
