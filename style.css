@@ -32,28 +32,26 @@ h1 {
   width: 220px;
   height: 100px;
   left: 20px;
-  top: 90px;
+  top: 70px;
   font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
   font-size: 34px;
   color: #1a2236;
 }
 
-h2 {
-  font-weight: 100;
-}
 
 .description {
-  position: absolute;
-  width: 288px;
-  height: 126px;
-  left: 26px;
-  top: 300px;
-  font-family: Poppins, "Times New Roman", Times, serif;
-  font-style: normal;
-  font-size: 10px;
-  line-height: 21px;
-  letter-spacing: -0.01em;
-  color: #1a2236;
+    position: absolute;
+    width: 288px;
+    height: 126px;
+    left: 16px;
+    top: 250px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #1A2236;
 }
 
 .collab {
@@ -61,14 +59,30 @@ h2 {
   position: absolute;
   width: 300px;
   height: 50px;
+  line-height: 50px;
   left: 10px;
-  top: 300px;
+  top: 200px;
   background: #1a2236;
   font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   text-align: center;
-  color: #fff;
+}
+
+#principal-link {
+    color: #fff;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-down {
+
+    position: absolute;
+    width: 320px;
+    height: 160px;
+    left: 0px;
+    top: 540px;
+    
 }
