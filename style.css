@@ -27,6 +27,23 @@ h1 {
   line-height: 95%;
 }
 
+h2 {
+  position: absolute;
+  width: 181px;
+  height: 50px;
+  left: 16px;
+  top: 700px;
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+
+  /* identical to box height, or 50px */
+
+  color: #1a2236;
+}
+
 .headline {
   position: absolute;
   width: 220px;
@@ -56,13 +73,13 @@ h1 {
 .collab {
   box-sizing: border-box;
   position: absolute;
-  width: 300px;
+  width: 320px;
   height: 50px;
   line-height: 50px;
   left: 10px;
   top: 200px;
   background: #1a2236;
-  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -82,4 +99,200 @@ h1 {
   height: 160px;
   left: 0;
   top: 540px;
+}
+
+.component1 {
+  /* Rectangle 21 */
+
+  position: absolute;
+  width: 375px;
+  left: 0;
+  margin-top: -277px;
+  border: 0.3333px solid rgb(255 255 255 / 10%);
+}
+
+.box {
+  /* Rectangle 22 */
+  position: absolute;
+  width: 375px;
+  height: 190px;
+  left: -1px;
+  top: 1048px;
+  background: #1a2236;
+  border: 0.3333px solid rgb(255 255 255 / 10%);
+  backdrop-filter: blur(0.5px);
+
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.component2 {
+  /* Rectangle 21 */
+
+  position: absolute;
+  width: 375px;
+  left: 0;
+  margin-top: -274px;
+  border: 0.3333px solid rgb(255 255 255 / 10%);
+}
+
+.box2 {
+  /* Rectangle 22 */
+  position: absolute;
+  width: 375px;
+  height: 190px;
+  left: -1px;
+  top: 1456px;
+  background: #1a2236;
+  border: 0 solid rgb(255 255 255 / 10%);
+  backdrop-filter: blur(0.5px);
+
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.component3 {
+  /* Rectangle 21 */
+
+  position: absolute;
+  width: 375px;
+  left: 0;
+  margin-top: -274px;
+  border: 0.3333px solid rgb(255 255 255 / 10%);
+}
+
+.box3 {
+  /* Rectangle 22 */
+  position: absolute;
+  width: 375px;
+  height: 190px;
+  left: -1px;
+  top: 1862px;
+  background: #1a2236;
+  border: 0 solid rgb(255 255 255 / 10%);
+  backdrop-filter: blur(0.5px);
+
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.component4 {
+  /* Rectangle 21 */
+
+  position: absolute;
+  width: 375px;
+  left: 0;
+  margin-top: -274px;
+  border: 0.3333px solid rgb(255 255 255 / 10%);
+}
+
+.box4 {
+  /* Rectangle 22 */
+  position: absolute;
+  width: 375px;
+  height: 190px;
+  left: -1px;
+  top: 2268px;
+  background: #1a2236;
+  border: 0 solid rgb(255 255 255 / 10%);
+  backdrop-filter: blur(0.5px);
+
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.component5 {
+  /* Rectangle 21 */
+
+  position: absolute;
+  width: 375px;
+  left: 0;
+  margin-top: -274px;
+  border: 0.3333px solid rgb(255 255 255 / 10%);
+}
+
+.box5 {
+  /* Rectangle 22 */
+  position: absolute;
+  width: 375px;
+  height: 190px;
+  left: -1px;
+  top: 2674px;
+  background: #1a2236;
+  border: 0 solid rgb(255 255 255 / 10%);
+  backdrop-filter: blur(0.5px);
+
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.component6 {
+  /* Rectangle 21 */
+
+  position: absolute;
+  width: 375px;
+  left: 0;
+  margin-top: -274px;
+  border: 0.3333px solid rgb(255 255 255 / 10%);
+}
+
+.box6 {
+  /* Rectangle 22 */
+  position: absolute;
+  width: 375px;
+  height: 190px;
+  left: -1px;
+  top: 3080px;
+  background: #1a2236;
+  border: 0 solid rgb(255 255 255 / 10%);
+  backdrop-filter: blur(0.5px);
+
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+h3 {
+  /* Project name goes here */
+
+  width: 264px;
+  height: 16px;
+  left: 40px;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 80%;
+  padding-left: 20px;
+
+  /* identical to box height, or 16px */
+
+  color: #fff;
+}
+
+.keywords li {
+  list-style: none;
+  display: inline-flex;
+  background-color: #98dede;
+  height: 20px;
+  left: 20px;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.333px;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-right: 10px;
+}
+
+.buttonbox {
+  width: 240px;
+  height: 50px;
+  background: #1a2236;
+  border: 0.5px solid rgb(255 255 255 / 10%);
+  backdrop-filter: blur(0.5px);
+  margin-left: 40px;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height */
+
+  text-align: center;
+  color: #fff;
 }
