@@ -119,6 +119,7 @@ h2 {
 
 .box {
   /* Rectangle 22 */
+  flex-wrap: flex;
   position: absolute;
   width: 375px;
   height: 190px;
@@ -213,8 +214,11 @@ h3 {
   align-items: center;
 }
 
-.about h1 {
+.about {
   display: flex;
+}
+
+.about h1 {
   position: absolute;
   width: 134px;
   height: 50px;
