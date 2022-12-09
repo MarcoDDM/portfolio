@@ -103,6 +103,10 @@ h2 {
   top: 540px;
 }
 
+.projects {
+  display: grid;
+}
+
 .component1 {
   /* Rectangle 21 */
 
