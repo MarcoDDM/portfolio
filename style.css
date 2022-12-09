@@ -27,6 +27,23 @@ h1 {
   line-height: 95%;
 }
 
+h2 {
+  position: absolute;
+  width: 181px;
+  height: 50px;
+  left: 16px;
+  top: 700px;
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+
+  /* identical to box height, or 50px */
+
+  color: #1a2236;
+}
+
 .headline {
   position: absolute;
   width: 220px;
@@ -56,13 +73,13 @@ h1 {
 .collab {
   box-sizing: border-box;
   position: absolute;
-  width: 300px;
+  width: 320px;
   height: 50px;
   line-height: 50px;
   left: 10px;
   top: 200px;
   background: #1a2236;
-  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -78,8 +95,275 @@ h1 {
 
 .image-down {
   position: absolute;
-  width: 320px;
-  height: 160px;
+  width: 375px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   left: 0;
   top: 540px;
+}
+
+.projects {
+  display: grid;
+}
+
+.component {
+  /* Rectangle 21 */
+
+  position: absolute;
+  width: 375px;
+  left: 0;
+  margin-top: -274px;
+  border: 0.3333px solid rgb(255 255 255 / 10%);
+}
+
+.box {
+  /* Rectangle 22 */
+  flex-wrap: flex;
+  position: absolute;
+  width: 375px;
+  height: 190px;
+  left: -1px;
+  background: #1a2236;
+  border: 0 solid rgb(255 255 255 / 10%);
+  backdrop-filter: blur(0.5px);
+
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.one {
+  top: 1048px;
+}
+
+.two {
+  top: 1456px;
+}
+
+.three {
+  top: 1862px;
+}
+
+.four {
+  top: 2268px;
+}
+
+.five {
+  top: 2674px;
+}
+
+.six {
+  top: 3080px;
+}
+
+h3 {
+  /* Project name goes here */
+
+  width: 264px;
+  height: 16px;
+  left: 40px;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 80%;
+  padding-left: 20px;
+
+  /* identical to box height, or 16px */
+
+  color: #fff;
+}
+
+.keywords li {
+  list-style: none;
+  display: inline-flex;
+  background-color: #98dede;
+  height: 20px;
+  left: 20px;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.333px;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-right: 10px;
+  margin-left: -18px;
+  margin-right: 20px;
+}
+
+.buttonbox {
+  width: 240px;
+  height: 50px;
+  background: #1a2236;
+  border: 0.5px solid rgb(255 255 255 / 10%);
+  backdrop-filter: blur(0.5px);
+  margin-left: 20px;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+
+  /* identical to box height */
+
+  align-content: left;
+  color: #fff;
+}
+
+.buttonbox img {
+  align-items: center;
+}
+
+.about {
+  display: flex;
+}
+
+.about h1 {
+  position: absolute;
+  width: 134px;
+  height: 50px;
+  left: 16px;
+  top: 3279px;
+  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+
+  /* identical to box height, or 50px */
+
+  color: #1a2236;
+}
+
+.about p {
+  position: absolute;
+  width: 288px;
+  height: 126px;
+  left: 16px;
+  top: 3392px;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+}
+
+.cv {
+  position: relative;
+  top: 3555px;
+  width: 340px;
+  height: 50px;
+
+  /* Rectangle 20 */
+
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height */
+
+  text-align: center;
+  color: #fff;
+  background: #1a2236;
+}
+
+.languages {
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  left: 16px;
+  top: 3660px;
+  background: #1c528a;
+}
+
+.languages img {
+  height: auto;
+  padding-left: 228px;
+}
+
+.languages li {
+  list-style: none;
+  padding-left: 10px;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+}
+
+.frameworks {
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  left: 16px;
+  top: 4020px;
+  background: #e2505c;
+}
+
+.frameworks img {
+  height: auto;
+  padding-left: 234px;
+  margin-top: -20px;
+}
+
+.frameworks li {
+  list-style: none;
+  padding-left: 10px;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+}
+
+.skills {
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  left: 16px;
+  top: 4380px;
+  background: #febf52;
+}
+
+.skills img {
+  height: auto;
+  padding-left: 228px;
+  margin-top: -25px;
+}
+
+.skills li {
+  list-style: none;
+  padding-left: 10px;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+}
+
+h4 {
+  width: 116px;
+  height: 30px;
+  left: 66px;
+  top: 3230px;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+
+  /* identical to box height */
+
+  color: #fff;
 }
