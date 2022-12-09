@@ -107,7 +107,7 @@ h2 {
   display: grid;
 }
 
-.component1 {
+.component {
   /* Rectangle 21 */
 
   position: absolute;
@@ -123,135 +123,38 @@ h2 {
   width: 375px;
   height: 190px;
   left: -1px;
+  background: #1a2236;
+  border: 0 solid rgb(255 255 255 / 10%);
+  backdrop-filter: blur(0.5px);
+
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.one {
   top: 1048px;
-  background: #1a2236;
-  border: 0 solid rgb(255 255 255 / 10%);
-  backdrop-filter: blur(0.5px);
-
-  /* Note: backdrop-filter has minimal browser support */
 }
 
-
-
-.component2 {
-  /* Rectangle 21 */
-
-  position: absolute;
-  width: 375px;
-  left: 0;
-  margin-top: -274px;
-  border: 0.3333px solid rgb(255 255 255 / 10%);
-}
-
-.box2 {
-  /* Rectangle 22 */
-  position: absolute;
-  width: 375px;
-  height: 190px;
-  left: -1px;
+.two{
   top: 1456px;
-  background: #1a2236;
-  border: 0 solid rgb(255 255 255 / 10%);
-  backdrop-filter: blur(0.5px);
-
-  /* Note: backdrop-filter has minimal browser support */
 }
 
-.component3 {
-  /* Rectangle 21 */
-
-  position: absolute;
-  width: 375px;
-  left: 0;
-  margin-top: -274px;
-  border: 0.3333px solid rgb(255 255 255 / 10%);
-}
-
-.box3 {
-  /* Rectangle 22 */
-  position: absolute;
-  width: 375px;
-  height: 190px;
-  left: -1px;
+.three {
   top: 1862px;
-  background: #1a2236;
-  border: 0 solid rgb(255 255 255 / 10%);
-  backdrop-filter: blur(0.5px);
-
-  /* Note: backdrop-filter has minimal browser support */
 }
 
-.component4 {
-  /* Rectangle 21 */
-
-  position: absolute;
-  width: 375px;
-  left: 0;
-  margin-top: -274px;
-  border: 0.3333px solid rgb(255 255 255 / 10%);
-}
-
-.box4 {
-  /* Rectangle 22 */
-  position: absolute;
-  width: 375px;
-  height: 190px;
-  left: -1px;
+.four {
   top: 2268px;
-  background: #1a2236;
-  border: 0 solid rgb(255 255 255 / 10%);
-  backdrop-filter: blur(0.5px);
-
-  /* Note: backdrop-filter has minimal browser support */
 }
 
-.component5 {
-  /* Rectangle 21 */
-
-  position: absolute;
-  width: 375px;
-  left: 0;
-  margin-top: -274px;
-  border: 0.3333px solid rgb(255 255 255 / 10%);
-}
-
-.box5 {
-  /* Rectangle 22 */
-  position: absolute;
-  width: 375px;
-  height: 190px;
-  left: -1px;
+.five {
   top: 2674px;
-  background: #1a2236;
-  border: 0 solid rgb(255 255 255 / 10%);
-  backdrop-filter: blur(0.5px);
-
-  /* Note: backdrop-filter has minimal browser support */
 }
 
-.component6 {
-  /* Rectangle 21 */
-
-  position: absolute;
-  width: 375px;
-  left: 0;
-  margin-top: -274px;
-  border: 0.3333px solid rgb(255 255 255 / 10%);
-}
-
-.box6 {
-  /* Rectangle 22 */
-  position: absolute;
-  width: 375px;
-  height: 190px;
-  left: -1px;
+.six{
   top: 3080px;
-  background: #1a2236;
-  border: 0 solid rgb(255 255 255 / 10%);
-  backdrop-filter: blur(0.5px);
 
-  /* Note: backdrop-filter has minimal browser support */
 }
+
 
 h3 {
   /* Project name goes here */
