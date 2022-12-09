@@ -311,6 +311,7 @@ h3 {
 }
 
 .about h1 {
+  display: flex;
   position: absolute;
   width: 134px;
   height: 50px;
