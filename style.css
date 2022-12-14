@@ -468,7 +468,7 @@ border-radius: 4px;
 
   .form .form-start button.start {
     position: absolute;
-    width: 288px;
+    width: 330px;
     height: 44px;
     left: 16px;
     top: 5220px;
@@ -484,4 +484,14 @@ border-radius: 4px;
     text-align: center;
 
     color: #FFFFFF;
+  }
+
+  .footer {
+    position: absolute;
+    width: 375px;
+    height: 170px;
+    left: 0px;
+    top: 4760px;
+
+    background: #1A2236;
   }
