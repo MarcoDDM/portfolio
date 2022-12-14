@@ -367,3 +367,117 @@ h4 {
 
   color: #fff;
 }
+
+.form img {
+  position: absolute;
+  width: 74px;
+  height: 74.02px;
+  right: 301px;
+  top: 4732px;
+}
+
+.form h1 {
+  position: absolute;
+width: 249px;
+height: 50px;
+left: 16px;
+top: 4770px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 100%;
+/* identical to box height, or 50px */
+color: #1A2236;
+}
+
+.form p {
+
+  position: absolute;
+  width: 288px;
+  height: 63px;
+  left: 16px;
+  top: 4868px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+
+  color: #1A2236;
+
+}
+
+.form .form-start .name {
+/* Rectangle 31 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 288px;
+height: 52px;
+left: 16px;
+top: 4960px;
+
+background: #FFFFFF;
+border: 1px solid #DFDFE0;
+border-radius: 4px;
+}
+
+.form .form-start .email {
+  /* Rectangle 31 */
+  
+  
+  box-sizing: border-box;
+  
+  position: absolute;
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  top: 5020px;
+  
+  background: #FFFFFF;
+  border: 1px solid #DFDFE0;
+  border-radius: 4px;
+  }
+
+  .form .form-start .message {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 288px;
+    height: 112px;
+    left: 16px;
+    top: 5082px;
+
+    background: #FFFFFF;
+    border: 1px solid #DFDFE0;
+    border-radius: 4px;
+
+    
+  }
+
+  .form .form-start button.start {
+    position: absolute;
+    width: 288px;
+    height: 44px;
+    left: 16px;
+    top: 5220px;
+    background: #1A2236;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
