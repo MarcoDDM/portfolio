@@ -301,7 +301,7 @@ h3 {
   width: 330px;
   height: 330px;
   left: 16px;
-  top: 4020px;
+  top: 4048px;
   background: #e2505c;
 }
 
@@ -328,7 +328,7 @@ h3 {
   width: 330px;
   height: 330px;
   left: 16px;
-  top: 4380px;
+  top: 4396px;
   background: #febf52;
 }
 
@@ -369,6 +369,8 @@ h4 {
 }
 
 .form {
+  position: absolute;
+  top: 36px;
   display: flex;
 }
 
@@ -382,8 +384,8 @@ h4 {
 
 .form h1 {
   position: absolute;
-  width: 249px;
-  height: 50px;
+  width: 290px;
+  height: 56px;
   left: 16px;
   top: 4794px;
   font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
@@ -465,9 +467,9 @@ h4 {
 .form .form-start button.start {
   position: absolute;
   width: 330px;
-  height: 44px;
+  height: 50px;
   left: 16px;
-  top: 5248px;
+  top: 5280px;
   background: #1a2236;
   font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
   font-style: normal;
@@ -487,7 +489,7 @@ h4 {
   width: 375px;
   height: 150px;
   left: 0;
-  top: 5340px;
+  top: 5454px;
   background: #1a2236;
 }
 
