@@ -449,7 +449,11 @@ h4 {
   background: #fff;
   border: 1px solid #dfdfe0;
   border-radius: 4px;
+  padding-bottom: 80px;
 }
+
+
+
 
 .form .form-start button.start {
   position: absolute;
