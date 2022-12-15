@@ -491,7 +491,47 @@ border-radius: 4px;
     width: 375px;
     height: 170px;
     left: 0px;
-    top: 4760px;
+    top: 5340px;
 
     background: #1A2236;
   }
+
+ .resume a {
+    /* Get my Resume */
+    position: absolute;
+    width: 127px;
+    height: 24px;
+    left: 16px;
+    top: 28px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #92DCDC;
+
+  }
+
+  .resume img {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 158px;
+    top: 28px;
+  }
+
+  .social {
+    position: absolute;
+    width: 375px;
+    height: 24px;
+    left: 20px;
+    top: 90px;
+  }
+
+.social img {
+  padding-right: 33px;
+}
