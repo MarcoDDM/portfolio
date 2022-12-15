@@ -374,7 +374,7 @@ h4 {
 
 .form img {
   position: absolute;
-  width: 74px;
+  width: 110px;
   height: 74.02px;
   left: 0;
   top: 4732px;
@@ -385,7 +385,7 @@ h4 {
   width: 249px;
   height: 50px;
   left: 16px;
-  top: 4770px;
+  top: 4794px;
   font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -398,17 +398,21 @@ h4 {
 
 .form p {
   position: absolute;
-  width: 288px;
+  width: 338px;
   height: 63px;
   left: 16px;
-  top: 4868px;
+  top: 4895px;
   font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
+}
+
+.form .form-start {
+  top: 4960px;
 }
 
 .form .form-start .name {
@@ -419,7 +423,7 @@ h4 {
   width: 330px;
   height: 52px;
   left: 16px;
-  top: 4960px;
+  top: 4994px;
   background: #fff;
   border: 1px solid #dfdfe0;
   border-radius: 4px;
@@ -435,9 +439,9 @@ h4 {
   width: 330px;
   height: 52px;
   left: 16px;
-  top: 5020px;
+  top: 5054px;
   background: #fff;
-  border: 1px solid #dfdfe0;
+  border: 0.5px solid #dfdfe0;
   border-radius: 4px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -449,7 +453,7 @@ h4 {
   width: 330px;
   height: 130px;
   left: 16px;
-  top: 5082px;
+  top: 5115px;
   background: #fff;
   border: 1px solid #dfdfe0;
   border-radius: 4px;
@@ -463,7 +467,7 @@ h4 {
   width: 330px;
   height: 44px;
   left: 16px;
-  top: 5220px;
+  top: 5248px;
   background: #1a2236;
   font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
   font-style: normal;
