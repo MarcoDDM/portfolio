@@ -382,155 +382,136 @@ h4 {
 
 .form h1 {
   position: absolute;
-width: 249px;
-height: 50px;
-left: 16px;
-top: 4770px;
+  width: 249px;
+  height: 50px;
+  left: 16px;
+  top: 4770px;
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
 
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 100%;
-/* identical to box height, or 50px */
-color: #1A2236;
+  /* identical to box height, or 50px */
+  color: #1a2236;
 }
 
 .form p {
-
   position: absolute;
   width: 288px;
   height: 63px;
   left: 16px;
   top: 4868px;
-
-  font-family: 'Poppins';
+  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
-
-  color: #1A2236;
-
+  color: #1a2236;
 }
 
 .form .form-start .name {
-/* Rectangle 31 */
+  /* Rectangle 31 */
 
-
-box-sizing: border-box;
-
-position: absolute;
-width: 288px;
-height: 52px;
-left: 16px;
-top: 4960px;
-
-background: #FFFFFF;
-border: 1px solid #DFDFE0;
-border-radius: 4px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  top: 4960px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
 }
 
 .form .form-start .email {
   /* Rectangle 31 */
-  
-  
+
   box-sizing: border-box;
-  
   position: absolute;
   width: 288px;
   height: 52px;
   left: 16px;
   top: 5020px;
-  
-  background: #FFFFFF;
-  border: 1px solid #DFDFE0;
+  background: #fff;
+  border: 1px solid #dfdfe0;
   border-radius: 4px;
-  }
+}
 
-  .form .form-start .message {
+.form .form-start .message {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 112px;
+  left: 16px;
+  top: 5082px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+}
 
-    box-sizing: border-box;
+.form .form-start button.start {
+  position: absolute;
+  width: 330px;
+  height: 44px;
+  left: 16px;
+  top: 5220px;
+  background: #1a2236;
+  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 
-    position: absolute;
-    width: 288px;
-    height: 112px;
-    left: 16px;
-    top: 5082px;
+  /* identical to box height */
 
-    background: #FFFFFF;
-    border: 1px solid #DFDFE0;
-    border-radius: 4px;
+  text-align: center;
+  color: #fff;
+}
 
-    
-  }
+.footer {
+  position: absolute;
+  width: 375px;
+  height: 170px;
+  left: 0;
+  top: 5340px;
+  background: #1a2236;
+}
 
-  .form .form-start button.start {
-    position: absolute;
-    width: 330px;
-    height: 44px;
-    left: 16px;
-    top: 5220px;
-    background: #1A2236;
+.resume a {
+  /* Get my Resume */
+  position: absolute;
+  width: 127px;
+  height: 24px;
+  left: 16px;
+  top: 28px;
+  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
+  /* identical to box height */
 
-    text-align: center;
+  color: #92dcdc;
+}
 
-    color: #FFFFFF;
-  }
+.resume img {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 158px;
+  top: 28px;
+}
 
-  .footer {
-    position: absolute;
-    width: 375px;
-    height: 170px;
-    left: 0px;
-    top: 5340px;
-
-    background: #1A2236;
-  }
-
- .resume a {
-    /* Get my Resume */
-    position: absolute;
-    width: 127px;
-    height: 24px;
-    left: 16px;
-    top: 28px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-
-
-    color: #92DCDC;
-
-  }
-
-  .resume img {
-    position: absolute;
-    width: 22px;
-    height: 22px;
-    left: 158px;
-    top: 28px;
-  }
-
-  .social {
-    position: absolute;
-    width: 375px;
-    height: 24px;
-    left: 20px;
-    top: 90px;
-  }
+.social {
+  position: absolute;
+  width: 375px;
+  height: 24px;
+  left: 20px;
+  top: 90px;
+}
 
 .social img {
   padding-right: 33px;
