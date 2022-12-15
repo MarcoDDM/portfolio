@@ -423,6 +423,8 @@ h4 {
   background: #fff;
   border: 1px solid #dfdfe0;
   border-radius: 4px;
+  padding-bottom: 20px;
+  padding-left: 10px;
 }
 
 .form .form-start .email {
@@ -437,19 +439,22 @@ h4 {
   background: #fff;
   border: 1px solid #dfdfe0;
   border-radius: 4px;
+  padding-bottom: 20px;
+  padding-left: 10px;
 }
 
 .form .form-start .message {
   box-sizing: border-box;
   position: absolute;
   width: 330px;
-  height: 112px;
+  height: 130px;
   left: 16px;
   top: 5082px;
   background: #fff;
   border: 1px solid #dfdfe0;
   border-radius: 4px;
   padding-bottom: 80px;
+  padding-left: 10px;
 }
 
 
