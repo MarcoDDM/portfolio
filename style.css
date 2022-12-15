@@ -463,7 +463,6 @@ h4 {
   padding-left: 10px;
 }
 
-
 .form .form-start button.start {
   position: absolute;
   width: 330px;
@@ -476,7 +475,7 @@ h4 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  border: 0px;
+  border: 0;
 
   /* identical to box height */
 
