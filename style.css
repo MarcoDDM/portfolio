@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-  width: 375px;
+  width: 100%;
 }
 
 .logo {
@@ -275,7 +275,7 @@ h3 {
   width: 330px;
   height: 330px;
   left: 16px;
-  top: 3660px;
+  top: 3699px;
   background: #1c528a;
 }
 
@@ -301,7 +301,7 @@ h3 {
   width: 330px;
   height: 330px;
   left: 16px;
-  top: 4020px;
+  top: 4048px;
   background: #e2505c;
 }
 
@@ -328,7 +328,7 @@ h3 {
   width: 330px;
   height: 330px;
   left: 16px;
-  top: 4380px;
+  top: 4396px;
   background: #febf52;
 }
 
@@ -366,4 +366,168 @@ h4 {
   /* identical to box height */
 
   color: #fff;
+}
+
+.form {
+  position: absolute;
+  top: 36px;
+  display: flex;
+}
+
+.form img {
+  position: absolute;
+  width: 110px;
+  height: 74.02px;
+  left: 0;
+  top: 4732px;
+}
+
+.form h1 {
+  position: absolute;
+  width: 290px;
+  height: 56px;
+  left: 16px;
+  top: 4794px;
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+
+  /* identical to box height, or 50px */
+  color: #1a2236;
+}
+
+.form p {
+  position: absolute;
+  width: 338px;
+  height: 63px;
+  left: 16px;
+  top: 4895px;
+  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+.form .form-start {
+  top: 4960px;
+}
+
+.form .form-start .name {
+  /* Rectangle 31 */
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 330px;
+  height: 52px;
+  left: 16px;
+  top: 4994px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.form .form-start .email {
+  /* Rectangle 31 */
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 330px;
+  height: 52px;
+  left: 16px;
+  top: 5054px;
+  background: #fff;
+  border: 0.5px solid #dfdfe0;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.form .form-start textarea.message {
+  box-sizing: border-box;
+  position: absolute;
+  width: 330px;
+  height: 130px;
+  left: 16px;
+  top: 5115px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  padding-left: 10px;
+  font-family: Arial, "Courier New", Courier, monospace;
+}
+
+.form .form-start button.start {
+  position: absolute;
+  width: 330px;
+  height: 50px;
+  left: 16px;
+  top: 5280px;
+  background: #1a2236;
+  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: 0;
+
+  /* identical to box height */
+
+  text-align: center;
+  color: #fff;
+}
+
+.footer {
+  position: absolute;
+  width: 375px;
+  height: 150px;
+  left: 0;
+  top: 5454px;
+  background: #1a2236;
+}
+
+.resume a {
+  /* Get my Resume */
+  position: absolute;
+  width: 127px;
+  height: 24px;
+  left: 16px;
+  top: 28px;
+  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height */
+
+  color: #92dcdc;
+}
+
+.resume img {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 158px;
+  top: 28px;
+}
+
+.social {
+  position: absolute;
+  width: 375px;
+  height: 24px;
+  left: 20px;
+  top: 90px;
+}
+
+.social img {
+  padding-right: 33px;
 }
