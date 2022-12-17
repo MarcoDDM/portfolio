@@ -41,8 +41,6 @@ body {
   text-decoration: none;
 }
 
-
-
 .menu_item a:visited {
   text-decoration: none;
 }
@@ -70,7 +68,8 @@ h2 {
   height: 50px;
   left: 16px;
   top: 700px;
-  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
+    sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -430,7 +429,8 @@ h4 {
   height: 56px;
   left: 16px;
   top: 4794px;
-  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
+    sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -586,6 +586,14 @@ h4 {
   .component_1 {
     display: none;
   }
+
+  .keywords__first {
+    display: none;
+  }
+
+  .buttonbox__first {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -673,27 +681,32 @@ h4 {
     transform: rotate(-90deg);
   }
 
-   
-  .one, 
+  .one,
   .two,
   .three,
   .four,
   .five,
-  .six  {
+  .six {
     display: none;
   }
 
   .box {
-    display: block;
+    display: none;
   }
 
-   .first {
+  .first {
     position: absolute;
     width: 960px;
     height: 380px;
     left: 560px;
     top: 1350px;
     z-index: 2;
+    flex-wrap: flex;
+    position: absolute;
+
+    background: #1a2236;
+    border: 0 solid rgb(255 255 255 / 10%);
+    backdrop-filter: blur(0.5px);
   }
 
   .first .component {
@@ -718,41 +731,51 @@ h4 {
     padding-left: 60px;
     margin-bottom: 34px;
 
-
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 80%;
     /* identical to box height, or 48px */
 
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
-  .first .keywords {
-    
+  .first .keywords__first {
     padding-left: 80px;
   }
 
-  .first .keywords li{
-    height: 30px;
+  .first .keywords__first li {
+    height: 35px;
     font-size: 18px;
     line-height: 100%;
     margin-right: 42px;
+    list-style: none;
+    display: inline-flex;
+    background-color: #98dede;
+    left: 20px;
+    font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-right: 24px;
+    margin-left: -18px;
+    margin-right: 45px;
   }
 
-  .buttonbox {
+  .buttonbox__first {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
 
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
-/* identical to box height */
+    text-align: center;
 
-text-align: center;
-
-color: #1A2236;
+    color: #1a2236;
 
     position: absolute;
     width: 212px;
@@ -760,9 +783,6 @@ color: #1A2236;
     margin-left: 61px;
     margin-top: 30px;
 
-
-background: #FFFFFF;
+    background: #ffffff;
   }
-
-  
 }
