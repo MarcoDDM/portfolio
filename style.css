@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+
+
 body {
   width: 100%;
 }
@@ -11,15 +13,47 @@ body {
   height: 74px;
   left: 0;
   top: 0;
+  
+}
+
+.burger {
+  float: right;
+
 }
 
 .hamburger {
   position: absolute;
   width: 20px;
-  height: 2px;
-  left: 310px;
+  height: 20px;
   top: 19px;
-  margin-left: 16px;
+  margin-left: 16px; 
+}
+
+.menu {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  justify-content: center;
+
+  color: #1A2236;
+
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-right: 1rem;
+  list-style: none;
+  align-items: center;
+}
+
+.menu .item {
+  list-style: none;
+  text-decoration: none;
 }
 
 h1 {
@@ -76,7 +110,7 @@ h2 {
   width: 320px;
   height: 50px;
   line-height: 50px;
-  left: 10px;
+  left: 0px;
   top: 200px;
   background: #1a2236;
   font-family: Poppins, Georgia, "Times New Roman", Times, serif;
@@ -530,4 +564,22 @@ h4 {
 
 .social img {
   padding-right: 33px;
+}
+
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
 }
