@@ -292,7 +292,7 @@ h3 {
 
 .cv {
   position: relative;
-  top: 3555px;
+  top: 3100px;
   width: 340px;
   height: 50px;
 
@@ -587,11 +587,23 @@ h4 {
     display: none;
   }
 
+  .component2 {
+    display: none;
+  }
+
   .keywords__first {
     display: none;
   }
 
+  .keywords__second {
+    display: none;
+  }
+
   .buttonbox__first {
+    display: none;
+  }
+
+  .buttonbox__second {
     display: none;
   }
 }
@@ -784,5 +796,70 @@ h4 {
     margin-top: 30px;
 
     background: #ffffff;
+  }
+
+  .second {
+    position: relative;
+    width: 450px;
+    height: 280px;
+    left: 1055px;
+    z-index: 2;
+    flex-wrap: flex;
+    top: 1730px;
+
+    background: #1a2236;
+    border: 0 solid rgb(255 255 255 / 10%);
+    backdrop-filter: blur(0.5px);
+  }
+
+  .component2 {
+    width: 100%;
+    margin-top: 90px;
+  }
+
+  .second-title {
+    font-size: 40px;
+    width: auto;
+    font-weight: 800;
+  }
+
+  .keywords__second {
+    padding-left: 38px;
+  }
+
+  .second .keywords__second li {
+    height: 35px;
+    font-size: 18px;
+    line-height: 100%;
+    list-style: none;
+    display: inline-flex;
+    background-color: #98dede;
+    left: 20px;
+    font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-right: 24px;
+    margin-left: -21px;
+    margin-right: 45px;
+  }
+
+  .buttonbox__second {
+    position: absolute;
+    width: 212px;
+    height: 51px;
+    margin-left: 14px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #1a2236;
   }
 }
