@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 
-
 body {
   width: 100%;
 }
@@ -16,44 +15,56 @@ body {
   
 }
 
+
 .burger {
-  float: right;
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px;
+  padding-left: 10px;
 
-}
-
-.hamburger {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 19px;
-  margin-left: 16px; 
 }
 
 .menu {
+  display: flex;
+  justify-content: center;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height */
-  justify-content: center;
+  gap: 3rem;
 
+  color: #1A2236;  gap: 16px;
+}
+
+.menu_item {
+  list-style: none;
+}
+
+.menu_item a {
   color: #1A2236;
-
-}
-
-.menu ul {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  padding-right: 1rem;
-  list-style: none;
-  align-items: center;
-}
-
-.menu .item {
-  list-style: none;
   text-decoration: none;
+}
+
+a:link {
+
+}
+.menu_item a:visited {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: underline;
+
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+a:active {
+  text-decoration: underline;
 }
 
 h1 {
