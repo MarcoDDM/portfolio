@@ -595,7 +595,7 @@ h4 {
     display: none;
   }
 
-  .component_1 {
+  .component-1 {
     display: none;
   }
 
@@ -603,19 +603,19 @@ h4 {
     display: none;
   }
 
-  .keywords__first {
+  .keywords-first {
     display: none;
   }
 
-  .keywords__second {
+  .keywords-second {
     display: none;
   }
 
-  .buttonbox__first {
+  .buttonbox-first {
     display: none;
   }
 
-  .buttonbox__second {
+  .buttonbox-second {
     display: none;
   }
 
@@ -623,27 +623,27 @@ h4 {
     display: none;
   }
 
-  .pc_left {
+  .pc-left {
     display: none;
   }
 
-  .pc_left_bigger {
+  .pc-left-bigger {
     display: none;
   }
 
-  .pc_right_squares {
+  .pc-right-squares {
     display: none;
   }
 
-  .pc_left_squares {
+  .pc-left-squares {
     display: none;
   }
 
-  .dot_right_yellow {
+  .dot-right-yellow {
     display: none;
   }
 
-  .pc_right_yellow {
+  .pc-right-yellow {
     display: none;
   }
 
@@ -677,7 +677,7 @@ h4 {
     display: none;
   }
 
-  .hr__mobile {
+  .hr-mobile {
     border: 0;
     clear: both;
     display: block;
@@ -803,7 +803,7 @@ h4 {
     display: none;
   }
 
-  .first .component_1 {
+  .first .component-1 {
     display: flex;
     justify-content: center;
     object-fit: fill;
@@ -831,11 +831,11 @@ h4 {
     color: #fff;
   }
 
-  .first .keywords__first {
+  .first .keywords-first {
     padding-left: 80px;
   }
 
-  .first .keywords__first li {
+  .first .keywords-first li {
     height: 35px;
     line-height: 100%;
     list-style: none;
@@ -853,7 +853,7 @@ h4 {
     margin-right: 45px;
   }
 
-  .buttonbox__first {
+  .buttonbox-first {
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -896,11 +896,11 @@ h4 {
     font-weight: 800;
   }
 
-  .keywords__second {
+  .keywords-second {
     padding-left: 38px;
   }
 
-  .second .keywords__second li {
+  .second .keywords-second li {
     height: 35px;
     font-size: 18px;
     line-height: 100%;
@@ -918,7 +918,7 @@ h4 {
     margin-right: 45px;
   }
 
-  .buttonbox__second {
+  .buttonbox-second {
     position: absolute;
     width: 212px;
     height: 51px;
@@ -943,18 +943,18 @@ h4 {
     top: 1730px;
   }
 
-  .pc_left {
+  .pc-left {
     position: absolute;
     left: 0;
     top: 1775px;
   }
 
-  .pc_left img {
+  .pc-left img {
     width: 540px;
     height: 322px;
   }
 
-  .pc_left_bigger {
+  .pc-left-bigger {
     position: absolute;
     width: 800px;
     height: 465px;
@@ -962,7 +962,7 @@ h4 {
     top: 2095px;
   }
 
-  .pc_right_squares {
+  .pc-right-squares {
     position: absolute;
     width: 639.75px;
     height: 275.42px;
@@ -970,7 +970,7 @@ h4 {
     top: 2310px;
   }
 
-  .dot_right_yellow {
+  .dot-right-yellow {
     position: absolute;
     width: 87.69px;
     height: 87.71px;
@@ -978,7 +978,7 @@ h4 {
     top: 2584px;
   }
 
-  .pc_right_yellow {
+  .pc-right-yellow {
     position: absolute;
     width: 465px;
     height: 270px;
@@ -986,7 +986,7 @@ h4 {
     top: 2584px;
   }
 
-  .pc_left_squares {
+  .pc-left-squares {
     position: absolute;
     width: 211.7px;
     height: 124.04px;
