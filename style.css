@@ -13,13 +13,66 @@ body {
   top: 0;
 }
 
-.hamburger {
+.burger {
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px;
+  padding-left: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  gap: 6rem;
+  color: #1a2236;
+}
+
+.menu-item {
+  list-style: none;
+}
+
+.menu-item a {
+  color: #1a2236;
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.resume a {
+  /* Get my Resume */
   position: absolute;
-  width: 20px;
-  height: 2px;
-  left: 310px;
-  top: 19px;
-  margin-left: 16px;
+  width: 127px;
+  height: 24px;
+  left: 16px;
+  top: 28px;
+  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height */
+
+  color: #92dcdc;
+}
+
+.menu-item a:visited {
+  text-decoration: none;
 }
 
 h1 {
@@ -33,7 +86,11 @@ h2 {
   height: 50px;
   left: 16px;
   top: 700px;
-  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-family:
+    "Playfair Display",
+    "Trebuchet MS",
+    "Lucida Sans Unicode",
+    sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -49,18 +106,18 @@ h2 {
   width: 220px;
   height: 100px;
   left: 20px;
-  top: 70px;
+  top: 80px;
   font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
   font-size: 34px;
   color: #1a2236;
 }
 
 .description {
-  position: absolute;
+  position: relative;
   width: 288px;
   height: 126px;
   left: 16px;
-  top: 250px;
+  top: 220px;
   font-family: Poppins, Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: 400;
@@ -76,8 +133,8 @@ h2 {
   width: 320px;
   height: 50px;
   line-height: 50px;
-  left: 10px;
-  top: 200px;
+  left: 0;
+  top: 180px;
   background: #1a2236;
   font-family: Poppins, Georgia, "Times New Roman", Times, serif;
   font-style: normal;
@@ -93,14 +150,19 @@ h2 {
   align-items: center;
 }
 
+.image-big {
+  width: 46%;
+  float: right;
+}
+
 .image-down {
-  position: absolute;
+  position: relative;
   width: 375px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   left: 0;
-  top: 540px;
+  top: 350px;
 }
 
 .projects {
@@ -111,7 +173,7 @@ h2 {
   /* Rectangle 21 */
 
   position: absolute;
-  width: 375px;
+  width: 100%;
   left: 0;
   margin-top: -274px;
   border: 0.3333px solid rgb(255 255 255 / 10%);
@@ -251,7 +313,7 @@ h3 {
 
 .cv {
   position: relative;
-  top: 3555px;
+  top: 3100px;
   width: 340px;
   height: 50px;
 
@@ -388,7 +450,11 @@ h4 {
   height: 56px;
   left: 16px;
   top: 4794px;
-  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-family:
+    "Playfair Display",
+    "Trebuchet MS",
+    "Lucida Sans Unicode",
+    sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -494,24 +560,6 @@ h4 {
   background: #1a2236;
 }
 
-.resume a {
-  /* Get my Resume */
-  position: absolute;
-  width: 127px;
-  height: 24px;
-  left: 16px;
-  top: 28px;
-  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-
-  /* identical to box height */
-
-  color: #92dcdc;
-}
-
 .resume img {
   position: absolute;
   width: 22px;
@@ -530,4 +578,576 @@ h4 {
 
 .social img {
   padding-right: 33px;
+}
+
+/* MEDIA FOR MOBILE */
+
+@media (max-width: 768px) {
+  .menu,
+  .image-big,
+  .image-dot,
+  .component-1,
+  .component2,
+  .keywords-first,
+  .keywords-second,
+  .buttonbox-first,
+  .buttonbox-second,
+  .geometry-center,
+  .pc-left,
+  .pc-left-bigger,
+  .pc-right-squares,
+  .pc-left-squares,
+  .dot-right-yellow,
+  .pc-right-yellow,
+  .dots-teal,
+  .p-desktop,
+  .img-form,
+  .dot-projects {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .hr-mobile {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: #f3f3f3;
+    height: 0.1px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .headline {
+    position: absolute;
+    width: 484px;
+    height: 220px;
+    left: 160px;
+    top: 140px;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 100%;
+
+    /* or 110px */
+    color: #1a2236;
+  }
+
+  .description {
+    position: absolute;
+    width: 484px;
+    height: 84px;
+    left: 160px;
+    top: 530px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+  }
+
+  .collab {
+    top: 140px;
+    height: 70px;
+    width: 270px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 60px;
+
+    /* identical to box height */
+
+    text-align: center;
+    color: #fff;
+  }
+
+  .image-down {
+    display: none;
+  }
+
+  .image-dot {
+    position: absolute;
+    width: 157px;
+    height: 157px;
+    left: 598px;
+    top: 707px;
+  }
+
+  .dot-projects {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 383px;
+    top: 1144px;
+  }
+
+  .projects h2 {
+    width: 398px;
+    height: 110px;
+    top: 74.5rem;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 50%;
+
+    /* identical to box height, or 110px */
+
+    color: #1a2236;
+    transform: rotate(-90deg);
+  }
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six {
+    display: none;
+  }
+
+  .box {
+    display: none;
+  }
+
+  .first {
+    width: 960px;
+    height: 380px;
+    left: 560px;
+    top: 1350px;
+    z-index: 2;
+    flex-wrap: flex;
+    position: absolute;
+    background: #1a2236;
+    border: 0 solid rgb(255 255 255 / 10%);
+    backdrop-filter: blur(0.5px);
+  }
+
+  .first .component {
+    display: none;
+  }
+
+  .first .component-1 {
+    display: flex;
+    justify-content: center;
+    object-fit: fill;
+    overflow: hidden;
+    z-index: -1;
+    float: right;
+    margin-right: 0;
+    margin-top: -348px;
+  }
+
+  .first .first-title {
+    width: 726px;
+    height: 48px;
+    left: 540px;
+    padding-left: 60px;
+    margin-bottom: 34px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80%;
+
+    /* identical to box height, or 48px */
+
+    color: #fff;
+  }
+
+  .first .keywords-first {
+    padding-left: 80px;
+  }
+
+  .first .keywords-first li {
+    height: 35px;
+    line-height: 100%;
+    list-style: none;
+    display: inline-flex;
+    background-color: #98dede;
+    left: 20px;
+    font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-right: 24px;
+    margin-left: -18px;
+    margin-right: 45px;
+  }
+
+  .buttonbox-first {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    /* identical to box height */
+
+    text-align: center;
+    color: #1a2236;
+    position: absolute;
+    width: 212px;
+    height: 51px;
+    margin-left: 61px;
+    margin-top: 30px;
+    background: #fff;
+  }
+
+  .second {
+    position: relative;
+    width: 450px;
+    height: 280px;
+    left: 1055px;
+    z-index: 2;
+    flex-wrap: flex;
+    top: 1730px;
+    background: #1a2236;
+    border: 0 solid rgb(255 255 255 / 10%);
+    backdrop-filter: blur(0.5px);
+  }
+
+  .component2 {
+    width: 100%;
+    margin-top: 90px;
+  }
+
+  .second-title {
+    font-size: 40px;
+    width: auto;
+    font-weight: 800;
+  }
+
+  .keywords-second {
+    padding-left: 38px;
+  }
+
+  .second .keywords-second li {
+    height: 35px;
+    font-size: 18px;
+    line-height: 100%;
+    list-style: none;
+    display: inline-flex;
+    background-color: #98dede;
+    left: 20px;
+    font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-right: 24px;
+    margin-left: -21px;
+    margin-right: 45px;
+  }
+
+  .buttonbox-second {
+    position: absolute;
+    width: 212px;
+    height: 51px;
+    margin-left: 14px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    /* identical to box height */
+
+    text-align: center;
+    color: #1a2236;
+  }
+
+  .geometry-center {
+    position: absolute;
+    width: 511px;
+    height: 350px;
+    left: 552px;
+    top: 1730px;
+  }
+
+  .pc-left {
+    position: absolute;
+    left: 0;
+    top: 1775px;
+  }
+
+  .pc-left img {
+    width: 540px;
+    height: 322px;
+  }
+
+  .pc-left-bigger {
+    position: absolute;
+    width: 800px;
+    height: 465px;
+    left: 0;
+    top: 2095px;
+  }
+
+  .pc-right-squares {
+    position: absolute;
+    width: 639.75px;
+    height: 275.42px;
+    left: 873px;
+    top: 2310px;
+  }
+
+  .dot-right-yellow {
+    position: absolute;
+    width: 87.69px;
+    height: 87.71px;
+    left: 783.31px;
+    top: 2584px;
+  }
+
+  .pc-right-yellow {
+    position: absolute;
+    width: 465px;
+    height: 270px;
+    left: 870px;
+    top: 2584px;
+  }
+
+  .pc-left-squares {
+    position: absolute;
+    width: 211.7px;
+    height: 124.04px;
+    left: 0;
+    top: 2584px;
+  }
+
+  .about h1 {
+    position: absolute;
+    width: 295px;
+    height: 110px;
+    left: 834px;
+    top: 2960px;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+  }
+
+  .about p {
+    position: absolute;
+    width: 446px;
+    height: 84px;
+    left: 834px;
+    top: 3180px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1a2236;
+  }
+
+  .about .cv {
+    box-sizing: border-box;
+    position: absolute;
+    width: 254px;
+    height: 70px;
+    left: 834px;
+    top: 3340px;
+  }
+
+  .languages {
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    left: 160px;
+    top: 3046px;
+  }
+
+  .languages img {
+    position: relative;
+    width: 102px;
+    height: 102px;
+    left: -41px;
+    top: -40px;
+  }
+
+  .frameworks {
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    left: 448px;
+    top: 3046px;
+  }
+
+  .frameworks img {
+    height: auto;
+    padding-left: 234px;
+    margin-top: -60px;
+  }
+
+  .skills {
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    left: 160px;
+    top: 3335px;
+    background: #febf52;
+  }
+
+  .skills img {
+    height: auto;
+    padding-left: 189px;
+    margin-top: -68px;
+  }
+
+  .dots-teal {
+    position: absolute;
+    width: 222.02px;
+    height: 222px;
+    left: 516px;
+    top: 3410px;
+  }
+
+  .logo-form-mobile {
+    display: none;
+  }
+
+  .form {
+    margin: 0 -8px;
+    padding: 0 8px;
+    background-color: #324344;
+  }
+
+  .form h1 {
+    position: absolute;
+    width: 548px;
+    height: 110px;
+    left: 446px;
+    top: 3850px;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+
+    /* identical to box height, or 110px */
+
+    text-align: center;
+    color: #1a2236;
+  }
+
+  .form .p-desktop {
+    position: absolute;
+    width: 548px;
+    height: 63px;
+    left: 446px;
+    top: 4100px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+  }
+
+  .form .p-mobile {
+    display: none;
+  }
+
+  .form .logo-form-desk {
+    position: absolute;
+    height: 350px;
+    width: 263px;
+    left: 0;
+    top: 3782px;
+  }
+
+  .form .form-start .name {
+    box-sizing: border-box;
+    position: absolute;
+    width: 254px;
+    height: 60px;
+    left: 449px;
+    top: 4245px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+
+  .form .form-start .email {
+    box-sizing: border-box;
+    position: absolute;
+    width: 253px;
+    height: 60px;
+    left: 738px;
+    top: 4245px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+
+  .form .form-start textarea.message {
+    box-sizing: border-box;
+    position: absolute;
+    width: 542px;
+    height: 140px;
+    left: 449px;
+    top: 4347px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+
+  .form .form-start button.start {
+    box-sizing: border-box;
+    position: absolute;
+    width: 254px;
+    height: 70px;
+    left: 593px;
+    top: 4527px;
+    background: #1a2236;
+  }
+
+  .footer {
+    position: absolute;
+    width: 100%;
+    height: 123px;
+    left: 0;
+    top: 4729px;
+    background: #1a2236;
+  }
+
+  .form .img-form img {
+    position: absolute;
+    width: 350.75px;
+    height: 350.84px;
+    left: 1089px;
+    top: 4342px;
+  }
+
+  .footer .resume {
+    position: absolute;
+    width: 144px;
+    height: 27px;
+    left: 160px;
+    top: 25px;
+  }
+
+  .footer .social {
+    position: absolute;
+    float: right;
+    left: 950px;
+    top: 50px;
+  }
 }
