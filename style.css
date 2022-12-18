@@ -574,12 +574,18 @@ h4 {
   padding-right: 33px;
 }
 
+/*MEDIA FOR MOBILE */
+
 @media (max-width: 768px) {
   .menu {
     display: none;
   }
 
   .image-big {
+    display: none;
+  }
+
+  .image-dot {
     display: none;
   }
 
@@ -604,6 +610,53 @@ h4 {
   }
 
   .buttonbox__second {
+    display: none;
+  }
+
+  .geometry-center {
+    display: none;
+  }
+
+  .pc_left {
+    display: none;
+  }
+
+  .pc_left_bigger {
+    display: none;
+  }
+
+  .pc_right_squares {
+    display: none;
+  }
+
+  .pc_left_squares {
+    display: none;
+  }
+  .dot_right_yellow {
+    display: none;
+  }
+
+  .pc_right_yellow {
+    display: none;
+  }
+
+  .dots-teal {
+    display: none;
+  }
+
+  .logo-form-desk {
+    display: none;
+  }
+
+  .p-desktop {
+    display: none;
+  }
+
+  .img-form {
+    display: none;
+  }
+
+  .dot-projects {
     display: none;
   }
 }
@@ -675,6 +728,22 @@ h4 {
 
   .image-down {
     display: none;
+  }
+
+  .image-dot {
+    position: absolute;
+    width: 157px;
+    height: 157px;
+    left: 598px;
+    top: 707px;
+  }
+
+  .dot-projects {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 383px;
+    top: 1144px;
   }
 
   .projects h2 {
@@ -861,5 +930,298 @@ h4 {
     text-align: center;
 
     color: #1a2236;
+  }
+
+  .geometry-center {
+    position: absolute;
+    width: 511px;
+    height: 350px;
+    left: 552px;
+    top: 1730px;
+  }
+
+  .pc_left {
+    position: absolute;
+
+    left: 0px;
+    top: 1775px;
+  }
+
+  .pc_left img {
+    width: 540px;
+    height: 322px;
+  }
+
+  .pc_left_bigger {
+    position: absolute;
+    width: 800px;
+    height: 465px;
+    left: 0px;
+    top: 2095px;
+  }
+
+  .pc_right_squares {
+    position: absolute;
+    width: 639.75px;
+    height: 275.42px;
+    left: 873px;
+    top: 2310px;
+  }
+
+  .dot_right_yellow {
+    position: absolute;
+    width: 87.69px;
+    height: 87.71px;
+    left: 783.31px;
+    top: 2584px;
+  }
+
+  .pc_right_yellow {
+    position: absolute;
+    width: 465px;
+    height: 270px;
+    left: 870px;
+    top: 2584px;
+  }
+
+  .pc_left_squares {
+    position: absolute;
+    width: 211.7px;
+    height: 124.04px;
+    left: 0px;
+    top: 2584px;
+  }
+
+  .about h1 {
+    position: absolute;
+    width: 295px;
+    height: 110px;
+    left: 834px;
+    top: 2960px;
+
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+  }
+
+  .about p {
+    position: absolute;
+    width: 446px;
+    height: 84px;
+    left: 834px;
+    top: 3180px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #1a2236;
+  }
+
+  .about .cv {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 254px;
+    height: 70px;
+    left: 834px;
+    top: 3340px;
+  }
+
+  .languages {
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    left: 160px;
+    top: 3046px;
+  }
+
+  .languages img {
+    position: relative;
+    width: 102px;
+    height: 102px;
+    left: -41px;
+    top: -40px;
+  }
+
+  .frameworks {
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    left: 448px;
+    top: 3046px;
+  }
+
+  .frameworks img {
+    height: auto;
+    padding-left: 234px;
+    margin-top: -60px;
+  }
+
+  .skills {
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    left: 160px;
+    top: 3335px;
+
+    background: #febf52;
+  }
+
+  .skills img {
+    height: auto;
+    padding-left: 189px;
+    margin-top: -68px;
+  }
+
+  .dots-teal {
+    position: absolute;
+    width: 222.02px;
+    height: 222px;
+    left: 516px;
+    top: 3410px;
+  }
+
+  .logo-form-mobile {
+    display: none;
+  }
+
+  .form h1 {
+    position: absolute;
+    width: 548px;
+    height: 110px;
+    left: 446px;
+    top: 3850px;
+
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+    /* identical to box height, or 110px */
+
+    text-align: center;
+
+    color: #1a2236;
+  }
+
+  .form .p-desktop {
+    position: absolute;
+    width: 548px;
+    height: 63px;
+    left: 446px;
+    top: 4100px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+
+    color: #1a2236;
+  }
+
+  .form .p-mobile {
+    display: none;
+  }
+
+  .form .logo-form-desk {
+    position: absolute;
+    height: 350px;
+    width: 263px;
+    left: 0px;
+    top: 3782px;
+  }
+
+  .form .form-start .name {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 254px;
+    height: 60px;
+    left: 449px;
+    top: 4245px;
+
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+
+  .form .form-start .email {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 253px;
+    height: 60px;
+    left: 738px;
+    top: 4245px;
+
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+
+  .form .form-start textarea.message {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 542px;
+    height: 140px;
+    left: 449px;
+    top: 4347px;
+
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+
+  .form .form-start button.start {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 254px;
+    height: 70px;
+    left: 593px;
+    top: 4527px;
+
+    background: #1a2236;
+  }
+
+  .footer {
+    position: absolute;
+    width: 1440px;
+    height: 123px;
+    left: 0px;
+    top: 4729px;
+
+    background: #1a2236;
+  }
+
+  .form .img-form img {
+    position: absolute;
+    width: 350.75px;
+    height: 350.84px;
+    left: 1089px;
+    top: 4342px;
+  }
+
+  .footer .resume {
+    position: absolute;
+    width: 144px;
+    height: 27px;
+    left: 160px;
+    top: 25px;
+  }
+
+  .footer .social {
+    position: absolute;
+    float: right;
+    left: 950px;
+    top: 50px;
   }
 }
