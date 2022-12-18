@@ -86,10 +86,7 @@ h2 {
   height: 50px;
   left: 16px;
   top: 700px;
-  font-family:
-    "Playfair Display",
-    "Trebuchet MS",
-    "Lucida Sans Unicode",
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
     sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -450,10 +447,7 @@ h4 {
   height: 56px;
   left: 16px;
   top: 4794px;
-  font-family:
-    "Playfair Display",
-    "Trebuchet MS",
-    "Lucida Sans Unicode",
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
     sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -583,91 +577,26 @@ h4 {
 /* MEDIA FOR MOBILE */
 
 @media (max-width: 768px) {
-  .menu {
-    display: none;
-  }
-
-  .image-big {
-    display: none;
-  }
-
-  .image-dot {
-    display: none;
-  }
-
-  .component-1 {
-    display: none;
-  }
-
-  .component2 {
-    display: none;
-  }
-
-  .keywords-first {
-    display: none;
-  }
-
-  .keywords-second {
-    display: none;
-  }
-
-  .buttonbox-first {
-    display: none;
-  }
-
-  .buttonbox-second {
-    display: none;
-  }
-
-  .geometry-center {
-    display: none;
-  }
-
-  .pc-left {
-    display: none;
-  }
-
-  .pc-left-bigger {
-    display: none;
-  }
-
-  .pc-right-squares {
-    display: none;
-  }
-
-  .pc-left-squares {
-    display: none;
-  }
-
-  .dot-right-yellow {
-    display: none;
-  }
-
-  .pc-right-yellow {
-    display: none;
-  }
-
-  .dots-teal {
-    display: none;
-  }
-
-  .logo-form-desk {
-    display: none;
-  }
-
-  .p-desktop {
-    display: none;
-  }
-
-  .img-form {
-    display: none;
-  }
-
+  .menu,
+  .image-big,
+  .image-dot,
+  .component-1,
+  .component2,
+  .keywords-first,
+  .keywords-second,
+  .buttonbox-first,
+  .buttonbox-second,
+  .geometry-center,
+  .pc-left,
+  .pc-left-bigger,
+  .pc-right-squares,
+  .pc-left-squares,
+  .dot-right-yellow,
+  .pc-right-yellow,
+  .dots-teal,
+  .p-desktop,
+  .img-form,
   .dot-projects {
-    display: none;
-  }
-
-  .bckrg-form {
     display: none;
   }
 }
