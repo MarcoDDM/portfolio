@@ -86,8 +86,7 @@ h2 {
   height: 50px;
   left: 16px;
   top: 700px;
-  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
-    sans-serif;
+  font-family: "Playfair Display", Arial, "Trebuchet MS", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -144,12 +143,9 @@ h2 {
   text-align: center;
 }
 
-DESCOMENTAR PARA PAIR PROGRAMMING
-
 .collab:hover {
   transform: scale(1.1);
 }
-
 
 #principal-link {
   color: #fff;
@@ -462,8 +458,7 @@ h4 {
   height: 56px;
   left: 16px;
   top: 4794px;
-  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
-    sans-serif;
+  font-family: "Playfair Display", Arial, "Trebuchet MS", serif, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
