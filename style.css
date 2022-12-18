@@ -23,7 +23,7 @@ body {
 .menu {
   display: flex;
   justify-content: center;
-  font-family: Poppins;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -574,7 +574,7 @@ h4 {
   padding-right: 33px;
 }
 
-/*MEDIA FOR MOBILE */
+/* MEDIA FOR MOBILE */
 
 @media (max-width: 768px) {
   .menu {
@@ -632,6 +632,7 @@ h4 {
   .pc_left_squares {
     display: none;
   }
+
   .dot_right_yellow {
     display: none;
   }
@@ -689,7 +690,7 @@ h4 {
     height: 220px;
     left: 160px;
     top: 140px;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 70px;
@@ -705,7 +706,7 @@ h4 {
     height: 84px;
     left: 160px;
     top: 530px;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -718,7 +719,7 @@ h4 {
     top: 140px;
     height: 70px;
     width: 270px;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -754,7 +755,7 @@ h4 {
     width: 398px;
     height: 110px;
     top: 74.5rem;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 110px;
@@ -780,7 +781,6 @@ h4 {
   }
 
   .first {
-    position: absolute;
     width: 960px;
     height: 380px;
     left: 560px;
@@ -788,7 +788,6 @@ h4 {
     z-index: 2;
     flex-wrap: flex;
     position: absolute;
-
     background: #1a2236;
     border: 0 solid rgb(255 255 255 / 10%);
     backdrop-filter: blur(0.5px);
@@ -805,7 +804,7 @@ h4 {
     overflow: hidden;
     z-index: -1;
     float: right;
-    margin-right: 0px;
+    margin-right: 0;
     margin-top: -348px;
   }
 
@@ -815,15 +814,15 @@ h4 {
     left: 540px;
     padding-left: 60px;
     margin-bottom: 34px;
-
-    font-family: "Poppins";
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 80%;
+
     /* identical to box height, or 48px */
 
-    color: #ffffff;
+    color: #fff;
   }
 
   .first .keywords__first {
@@ -832,9 +831,7 @@ h4 {
 
   .first .keywords__first li {
     height: 35px;
-    font-size: 18px;
     line-height: 100%;
-    margin-right: 42px;
     list-style: none;
     display: inline-flex;
     background-color: #98dede;
@@ -851,24 +848,22 @@ h4 {
   }
 
   .buttonbox__first {
-    font-family: "Poppins";
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
+
     /* identical to box height */
 
     text-align: center;
-
     color: #1a2236;
-
     position: absolute;
     width: 212px;
     height: 51px;
     margin-left: 61px;
     margin-top: 30px;
-
-    background: #ffffff;
+    background: #fff;
   }
 
   .second {
@@ -879,7 +874,6 @@ h4 {
     z-index: 2;
     flex-wrap: flex;
     top: 1730px;
-
     background: #1a2236;
     border: 0 solid rgb(255 255 255 / 10%);
     backdrop-filter: blur(0.5px);
@@ -923,16 +917,15 @@ h4 {
     width: 212px;
     height: 51px;
     margin-left: 14px;
-
-    font-family: "Poppins";
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
+
     /* identical to box height */
 
     text-align: center;
-
     color: #1a2236;
   }
 
@@ -946,8 +939,7 @@ h4 {
 
   .pc_left {
     position: absolute;
-
-    left: 0px;
+    left: 0;
     top: 1775px;
   }
 
@@ -960,7 +952,7 @@ h4 {
     position: absolute;
     width: 800px;
     height: 465px;
-    left: 0px;
+    left: 0;
     top: 2095px;
   }
 
@@ -992,7 +984,7 @@ h4 {
     position: absolute;
     width: 211.7px;
     height: 124.04px;
-    left: 0px;
+    left: 0;
     top: 2584px;
   }
 
@@ -1002,8 +994,7 @@ h4 {
     height: 110px;
     left: 834px;
     top: 2960px;
-
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 110px;
@@ -1016,19 +1007,16 @@ h4 {
     height: 84px;
     left: 834px;
     top: 3180px;
-
-    font-family: "Poppins";
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-
     color: #1a2236;
   }
 
   .about .cv {
     box-sizing: border-box;
-
     position: absolute;
     width: 254px;
     height: 70px;
@@ -1072,7 +1060,6 @@ h4 {
     height: 290px;
     left: 160px;
     top: 3335px;
-
     background: #febf52;
   }
 
@@ -1097,7 +1084,6 @@ h4 {
   .form {
     margin: 0 -8px;
     padding: 0 8px;
-
     background-color: #324344;
   }
 
@@ -1107,16 +1093,15 @@ h4 {
     height: 110px;
     left: 446px;
     top: 3850px;
-
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 110px;
     line-height: 100%;
+
     /* identical to box height, or 110px */
 
     text-align: center;
-
     color: #1a2236;
   }
 
@@ -1126,14 +1111,12 @@ h4 {
     height: 63px;
     left: 446px;
     top: 4100px;
-
-    font-family: "Poppins";
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     letter-spacing: -0.01em;
-
     color: #1a2236;
   }
 
@@ -1145,61 +1128,53 @@ h4 {
     position: absolute;
     height: 350px;
     width: 263px;
-    left: 0px;
+    left: 0;
     top: 3782px;
   }
 
   .form .form-start .name {
     box-sizing: border-box;
-
     position: absolute;
     width: 254px;
     height: 60px;
     left: 449px;
     top: 4245px;
-
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 4px;
   }
 
   .form .form-start .email {
     box-sizing: border-box;
-
     position: absolute;
     width: 253px;
     height: 60px;
     left: 738px;
     top: 4245px;
-
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 4px;
   }
 
   .form .form-start textarea.message {
     box-sizing: border-box;
-
     position: absolute;
     width: 542px;
     height: 140px;
     left: 449px;
     top: 4347px;
-
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 4px;
   }
 
   .form .form-start button.start {
     box-sizing: border-box;
-
     position: absolute;
     width: 254px;
     height: 70px;
     left: 593px;
     top: 4527px;
-
     background: #1a2236;
   }
 
@@ -1207,9 +1182,8 @@ h4 {
     position: absolute;
     width: 100%;
     height: 123px;
-    left: 0px;
+    left: 0;
     top: 4729px;
-
     background: #1a2236;
   }
 
