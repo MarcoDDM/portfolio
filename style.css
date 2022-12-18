@@ -53,6 +53,24 @@ a:active {
   text-decoration: underline;
 }
 
+.resume a {
+  /* Get my Resume */
+  position: absolute;
+  width: 127px;
+  height: 24px;
+  left: 16px;
+  top: 28px;
+  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height */
+
+  color: #92dcdc;
+}
+
 .menu-item a:visited {
   text-decoration: none;
 }
@@ -540,24 +558,6 @@ h4 {
   left: 0;
   top: 5454px;
   background: #1a2236;
-}
-
-.resume a {
-  /* Get my Resume */
-  position: absolute;
-  width: 127px;
-  height: 24px;
-  left: 16px;
-  top: 28px;
-  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-
-  /* identical to box height */
-
-  color: #92dcdc;
 }
 
 .resume img {
