@@ -86,10 +86,7 @@ h2 {
   height: 50px;
   left: 16px;
   top: 700px;
-  font-family:
-    "Playfair Display",
-    "Trebuchet MS",
-    "Lucida Sans Unicode",
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
     sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -110,6 +107,10 @@ h2 {
   font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
   font-size: 34px;
   color: #1a2236;
+}
+
+.headline:hover {
+  transform: scale(1.1);
 }
 
 .description {
@@ -143,6 +144,13 @@ h2 {
   text-align: center;
 }
 
+DESCOMENTAR PARA PAIR PROGRAMMING
+
+.collab:hover {
+  transform: scale(1.1);
+}
+
+
 #principal-link {
   color: #fff;
   text-decoration: none;
@@ -153,6 +161,10 @@ h2 {
 .image-big {
   width: 46%;
   float: right;
+}
+
+.image-big:hover {
+  transform: scale(1.1);
 }
 
 .image-down {
@@ -450,10 +462,7 @@ h4 {
   height: 56px;
   left: 16px;
   top: 4794px;
-  font-family:
-    "Playfair Display",
-    "Trebuchet MS",
-    "Lucida Sans Unicode",
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
     sans-serif;
   font-style: normal;
   font-weight: 400;
