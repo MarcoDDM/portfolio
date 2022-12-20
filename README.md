@@ -2,9 +2,6 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Portfolio Project For First Module</b></h3>
 
 </div>
