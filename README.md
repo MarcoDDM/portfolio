@@ -37,7 +37,10 @@ Portfolio created with html, css and javascript
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+<a href="https://www.loom.com/share/4a2974efad1e4114ba12fcb55219b1d6">
+    <p>Project presentation: Porfolio - Watch Video</p>
+    <img style="max-width:300px;" src="null">
+  </a>
 
 - [Live Demo Link](https://marcoalmada.online/portfolio/)
 
