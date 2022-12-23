@@ -37,7 +37,10 @@ Portfolio created with html, css and javascript
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<div style="position: relative; padding-bottom: NaN%; height: 0;"><iframe src="https://www.loom.com/embed/4a2974efad1e4114ba12fcb55219b1d6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<a href="https://www.loom.com/share/4a2974efad1e4114ba12fcb55219b1d6">
+    <p>Project presentation: Porfolio - Watch Video</p>
+    <img style="max-width:300px;" src="portfolio-pres.jpg">
+  </a>
 
 - [Live Demo Link](https://marcoalmada.online/portfolio/)
 
