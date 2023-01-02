@@ -1,10 +1,10 @@
 const hideElements = () => {
-  const elements = document.querySelectorAll(' .headline, .image-down, .logo-mobile, .description, .projects, .about, .form, .footer');
+  const elements = document.querySelectorAll('.hamburger, .headline, .image-down, .logo-mobile, .description, .projects, .about, .form, .footer');
   elements.forEach(element => element.style.display = 'none');
 }
 
 const showElements = () => {
-  const elements = document.querySelectorAll('.logo-mobile, .headline, .description, .projects, .about, .form, .footer');
+  const elements = document.querySelectorAll('.logo-mobile, .mobile_menu, .headline, .description, .projects, .about, .form, .footer');
   elements.forEach(element => element.style.display = 'flex');
 }
 
