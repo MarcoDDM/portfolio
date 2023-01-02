@@ -32,6 +32,27 @@ body {
   color: #1a2236;
 }
 
+.mobile-menu {
+  flex-direction: column;
+}
+
+.mobile-menu li {
+  list-style: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 300%;
+  /* or 48px */
+  text-align: center;
+
+  color: #000000;
+}
+
+.mobile-menu li a {
+  text-decoration: none;
+}
+
 .menu-item {
   list-style: none;
 }
