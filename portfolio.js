@@ -10,7 +10,7 @@ const showElements = () => {
 
 function showMobileMenu() {
   hideElements();
-  const mobileMenu = document.querySelector('.mobile_menu');
+  const mobileMenu = document.querySelector('.mobile-menu');
   mobileMenu.style.display = 'flex';
   mobileMenu.style.width = '100%';
   mobileMenu.style.height = '454px';
