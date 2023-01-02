@@ -21,7 +21,15 @@
 
 <body>
 	<header class="header">
-		<nav class="burger"> <a href="#" class="hamburger"><img src="images/hamburger.svg" /></a> </nav>
+		<nav class="burger" onclick="showMobileMenu()"> <a href="#" class="hamburger"><img src="images/hamburger.svg" /></a>
+		</nav>
+		<!--MOBILE MENU-->
+		<nav class="mobile-menu">
+			<li><a class="mobile-item" href="#description">Hello</a></li>
+			<li><a class="mobile-item" href="#projects">Portfolio</a>
+			<li><a class="mobile-item" href="#about">About</a>
+			<li><a class="mobile-item" href="#form">Contact</a>
+		</nav>
 		<nav>
 			<ul class="menu">
 				<li class="menu-item"><a href="#description">Hello</a></li>
@@ -191,6 +199,9 @@
 					src="images/ic_medium.svg" alt=""> <img src="images/ic_angellist.svg" alt="">
 			</div>
 		</section>
+
+
+		<script src="portfolio.js"></script>
 </body>
 
 </html>
