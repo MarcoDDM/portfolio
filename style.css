@@ -53,6 +53,20 @@ body {
   text-decoration: none;
 }
 
+.mobile-logo {
+  position: absolute;
+  top: 0px;
+  width: 111px;
+}
+
+.mobile-x {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 390px;
+  top: 24px;
+}
+
 .menu-item {
   list-style: none;
 }
@@ -631,7 +645,8 @@ h4 {
   .img-form,
   .logo-form-desk,
   .dot-projects,
-  .mobile-menu {
+  .mobile-menu,
+  .mobile-logo {
     display: none;
   }
 }
@@ -641,7 +656,10 @@ h4 {
 @media (min-width: 768px) {
   .hamburger,
   .mobile_menu,
-  .image-down {
+  .image-down,
+  .mobile-logo,
+  .mobile-x,
+  .mobile-menu {
     display: none;
   }
 
