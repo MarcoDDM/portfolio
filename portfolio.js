@@ -3,10 +3,22 @@ const hideElements = () => {
   elements.forEach(element => element.style.display = 'none');
 }
 
+const hideMenu = () => {
+  const elements = document.querySelectorAll('.mobile-menu');
+  elements.forEach(element => element.style.display = 'none');
+}
+
 const showElements = () => {
-  const elements = document.querySelectorAll('.mobile-logo, .mobile_menu, .headline, .description, .projects, .about, .form, .footer');
+  const elements = document.querySelectorAll('.hamburger, .mobile-logo, .mobile_menu, .headline, .description, .projects, .about, .form, .footer');
   elements.forEach(element => element.style.display = 'flex');
 }
+
+const closeMenu = () => {
+  hideMenu();
+  const elements = document.querySelectorAll('.hamburger, .headline, .image-down, .description, .projects, .about, .form, .footer');
+  elements.forEach(element => element.style.display = 'flex');
+}
+
 
 function showMobileMenu() {
   hideElements();
@@ -17,11 +29,15 @@ function showMobileMenu() {
 }
 
 const scrollToElement = (id) => {
+  hideMenu();
   showElements();
-  document.querySelector(id).scrollIntoView();
+  const element = document.querySelector(id);
+  element.scrollIntoView();
 }
 
-showMobileMenu;
-scrollToElement('#projects');
-scrollToElement('#about');
-scrollToElement('#form');
+
+//showMobileMenu;
+//scrollToElement('#description')
+//scrollToElement('#projects');
+//scrollToElement('#about');
+//scrollToElement('#form');

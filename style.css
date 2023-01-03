@@ -56,6 +56,10 @@ body {
   text-decoration: none;
 }
 
+.mobile-menu li a:active {
+  text-decoration: none;
+}
+
 .mobile-logo {
   position: relative;
   top: -96px;
@@ -67,7 +71,7 @@ body {
   width: 16px;
   height: 16px;
   left: 340px;
-  top: 24px;
+  top: 16px;
 }
 
 .mobile-dot {
@@ -76,6 +80,21 @@ body {
   height: 40px;
   left: 270px;
   top: 74px;
+}
+
+.mobile-dot-2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 60px;
+  top: 430px;
+}
+
+.menu-mobile-down {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 510px;
 }
 
 .menu-item {
@@ -671,7 +690,8 @@ h4 {
   .mobile-logo,
   .mobile-x,
   .mobile-menu,
-  .mobile-dot {
+  .mobile-dot,
+  .mobile-dot-2 {
     display: none;
   }
 
