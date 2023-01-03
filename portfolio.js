@@ -13,13 +13,6 @@ function hideMenu() {
   });
 }
 
-function showElements() {
-  const elements = document.querySelectorAll('.hamburger, .headline, .description, .projects');
-  elements.forEach((element) => {
-    element.style.display = 'flex';
-  });
-}
-
 function closeMenu() {
   hideMenu();
   const elements = document
@@ -50,7 +43,7 @@ function showMobileMenu() {
 const links = document.querySelectorAll('.scroll-link');
 hideMenu();
 links.forEach((link) => {
-  link.addEventListener('click', function (event) {
+  link.addEventListener('click', function handleClick(event) {
     event.preventDefault();
 
     // Get the element to scroll to
