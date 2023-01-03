@@ -9,7 +9,7 @@ const hideMenu = () => {
 }
 
 const showElements = () => {
-  const elements = document.querySelectorAll('.hamburger, .mobile-logo, .mobile_menu, .headline, .description, .projects, .about, .form, .footer');
+  const elements = document.querySelectorAll('.hamburger, .headline, .description, .projects, .about, .form, .footer');
   elements.forEach(element => element.style.display = 'flex');
 }
 

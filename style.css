@@ -675,8 +675,7 @@ h4 {
   .img-form,
   .logo-form-desk,
   .dot-projects,
-  .mobile-menu,
-  .mobile-logo {
+  .mobile-menu {
     display: none;
   }
 }
