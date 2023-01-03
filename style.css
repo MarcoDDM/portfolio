@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   width: 100%;
-  margin: 0px;
+  margin: 0;
 }
 
 .logo {
@@ -39,69 +40,6 @@ body {
 .mobile-menu {
   flex-direction: column;
   margin-top: 80px;
-}
-
-.mobile-menu li {
-  list-style: none;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 300%;
-
-  /* or 48px */
-  text-align: center;
-
-  color: #000000;
-}
-
-.mobile-menu li a {
-  text-decoration: none;
-}
-
-.mobile-menu li a:active {
-  text-decoration: none;
-}
-
-.mobile-logo {
-  position: relative;
-  top: -96px;
-  width: 111px;
-}
-
-.mobile-x {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  left: 340px;
-  top: 16px;
-}
-
-.mobile-dot {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  left: 270px;
-  top: 74px;
-}
-
-.mobile-dot-2 {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  left: 60px;
-  top: 430px;
-}
-
-.menu-mobile-down {
-  position: absolute;
-  width: 100%;
-  left: 0px;
-  top: 510px;
-}
-
-.menu-item {
-  list-style: none;
 }
 
 .menu-item a {
@@ -139,6 +77,64 @@ a:active {
   color: #92dcdc;
 }
 
+.mobile-menu li {
+  list-style: none;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 300%;
+
+  /* or 48px */
+  text-align: center;
+  color: #000;
+}
+
+.mobile-menu li a {
+  text-decoration: none;
+}
+
+.mobile-logo {
+  position: relative;
+  top: -96px;
+  width: 111px;
+}
+
+.mobile-x {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 340px;
+  top: 16px;
+}
+
+.mobile-dot {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 270px;
+  top: 74px;
+}
+
+.mobile-dot-2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 60px;
+  top: 430px;
+}
+
+.menu-mobile-down {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 510px;
+}
+
+.menu-item {
+  list-style: none;
+}
+
 .menu-item a:visited {
   text-decoration: none;
 }
@@ -154,7 +150,10 @@ h2 {
   height: 50px;
   left: 16px;
   top: 700px;
-  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
+  font-family:
+    "Playfair Display",
+    "Trebuchet MS",
+    "Lucida Sans Unicode",
     sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -258,7 +257,7 @@ h2 {
 
 .box {
   /* Rectangle 22 */
-  flex-wrap: flex;
+  flex-wrap: wrap;
   position: absolute;
   width: 375px;
   height: 190px;
@@ -345,7 +344,7 @@ h3 {
 
   /* identical to box height */
 
-  align-content: left;
+  align-content: flex-start;
   color: #fff;
 }
 
@@ -527,7 +526,10 @@ h4 {
   height: 56px;
   left: 16px;
   top: 4794px;
-  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
+  font-family:
+    "Playfair Display",
+    "Trebuchet MS",
+    "Lucida Sans Unicode",
     sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -683,7 +685,7 @@ h4 {
   }
 }
 
-/*MEDIA FOR DESKTOP*/
+/* MEDIA FOR DESKTOP */
 
 @media (min-width: 768px) {
   .hamburger,
@@ -808,7 +810,7 @@ h4 {
     left: 560px;
     top: 1350px;
     z-index: 2;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     position: absolute;
     background: #1a2236;
     border: 0 solid rgb(255 255 255 / 10%);
@@ -894,7 +896,7 @@ h4 {
     height: 280px;
     left: 1055px;
     z-index: 2;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     top: 1730px;
     background: #1a2236;
     border: 0 solid rgb(255 255 255 / 10%);
