@@ -1,44 +1,41 @@
-const hideElements = () => {
-  const elements =
-  document.
-      querySelectorAll(
-          '.hamburger,  .headline, .image-down,'
-          , '.description, .projects, .about, .form, .footer',
-      );
+function hideElements() {
+  const elements = document.querySelectorAll('.hamburger,  .headline, .image-down, .description, .projects, .about, .form, .footer');
 
-  elements.forEach((element) => element.style.display = 'none');
-};
+  elements.forEach((element) => {
+    element.style.display = 'none';
+  });
+}
 
-const hideMenu = () => {
+function hideMenu() {
   const elements = document.querySelectorAll('.mobile-menu');
-  elements.forEach((element) => element.style.display = 'none');
-};
+  elements.forEach((element) => {
+    element.style.display = 'none';
+  });
+}
 
-const showElements = () => {
-  const elements =
-  document.
-      querySelectorAll(
-          '.hamburger, .headline, .description, .projects',
-      );
-  elements.forEach((element) => element.style.display = 'flex');
-};
+function showElements() {
+  const elements = document.querySelectorAll('.hamburger, .headline, .description, .projects');
+  elements.forEach((element) => {
+    element.style.display = 'flex';
+  });
+}
 
-const closeMenu = () => {
+function closeMenu() {
   hideMenu();
-  const elements =
-  document.
-      querySelectorAll(
-          '.hamburger,  .headline, .image-down,'
-          , '.description, .projects, .about, .form, .footer',
-      );
+  const elements = document
+    .querySelectorAll('.hamburger,  .headline, .image-down, .description, .projects, .about, .form, .footer');
   if (window.innerWidth <= 768) {
     // Show the elements on mobile devices
-    elements.forEach((element) => element.style.display = 'flex');
+    elements.forEach((element) => {
+      element.style.display = 'flex';
+    });
   } else {
     // Hide the elements on desktop devices
-    elements.forEach((element) => element.style.display = 'none');
+    elements.forEach((element) => {
+      element.style.display = 'none';
+    });
   }
-};
+}
 
 // Function to show menu mobile
 function showMobileMenu() {
@@ -53,7 +50,7 @@ function showMobileMenu() {
 const links = document.querySelectorAll('.scroll-link');
 hideMenu();
 links.forEach((link) => {
-  link.addEventListener('click', function(event) {
+  link.addEventListener('click', function (event) {
     event.preventDefault();
 
     // Get the element to scroll to
@@ -61,10 +58,6 @@ links.forEach((link) => {
     const element = document.querySelector(elementId);
 
     // Scroll to the element with a smooth animation
-    element.scrollIntoView({behavior: 'smooth'});
+    element.scrollIntoView({ behavior: 'smooth' });
   });
 });
-
-showElements;
-closeMenu;
-showMobileMenu;
