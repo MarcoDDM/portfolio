@@ -54,3 +54,9 @@ links.forEach((link) => {
     element.scrollIntoView({ behavior: 'smooth' });
   });
 });
+
+const showMenuButton = document.getElementById('.burger');
+showMenuButton.addEventListener('click', showMobileMenu);
+
+const closeMenuButton = document.getElementById('.mobile-x');
+closeMenuButton.addEventListener('click', closeMenu);
