@@ -5,7 +5,6 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,11 +16,27 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 	<header class="header">
-		<nav class="burger"> <a href="#" class="hamburger"><img src="images/hamburger.svg" /></a> </nav>
+		<nav class="burger" onclick="showMobileMenu()"> <a class="hamburger"><img src="images/hamburger.svg" /></a>
+		</nav>
+		<!--MOBILE MENU-->
+		<nav class="mobile-menu">
+			<img class="mobile-logo" src="images/mobile_menu_geometry.png" alt="">
+			<div><img onclick="closeMenu()" class="mobile-x" src="images/x-union.png" alt=""></div>
+			<img src="images/mobile_dot.png" alt="" class="mobile-dot">
+			<ul>
+				<li><a class="mobile-item" onclick="closeMenu()" href="#description">Hello</a></li>
+				<li><a class="mobile-item" onclick="closeMenu()" href="#projects">Portfolio</a>
+				<li><a class="mobile-item" onclick="closeMenu()" href="#about">About</a>
+				<li><a class="mobile-item" onclick="closeMenu()" href="#form">Contact</a>
+					<img src="images/mobile_dot.png" alt="" class="mobile-dot-2">
+					<img src="images/Mask Group.png" alt="" class="menu-mobile-down">
+			</ul>
+		</nav>
 		<nav>
 			<ul class="menu">
 				<li class="menu-item"><a href="#description">Hello</a></li>
@@ -32,165 +47,173 @@
 		</nav>
 	</header>
 
-	<span class="hr-mobile">
-		<div class="headline">
-			<h1>Marco Almada</h1>
+	<span class="hr-mobile"></span>
+	<div class="headline">
+		<h1>Marco Almada</h1>
+	</div>
+	<section class="description" id="description">
+		<p>Hello! I am a software developer! I can help you build a product, feature or website. Take a look of my
+			works.<br> If you like what you see and have a project you need coded, don’t hesitate and contact me.
+		</p> <a href="#" class="collab" id="principal-link">Start collaboration</a>
+	</section>
+	<img src="images/image-geometry_1.svg" alt="Principal image" class="image-big" /> <img
+		src="images/image_geometry_2.svg" alt="Background image on mobile" class="image-down img-dwn" /> <img
+		src="images/image_dot.png" alt="" class="image-dot" />
+
+	<section class="projects">
+		<h2 id="projects">Projects</h2>
+		<div class="box one">
+			<h3 class="first-title">Project name goes here</h3> <img class="component" src="images/component_1.png"
+				alt="Project number one" />
+			<ul class="keywords">
+				<li>HTML/CSS</li>
+				<li>Ruby on Rails</li>
+				<li>Javascript</li>
+			</ul> <button class="buttonbox">See this project<img src="images/Union.png" /></button>
 		</div>
-		<div class="description">
-			<p>Hello! I am a software developer! I can help you build a product, feature or website. Take a look of my
-				works.<br> If you like what you see and have a project you need coded, don’t hesitate and contact me. </p> <a
-				href="#" class="collab" id="principal-link">Start collaboration</a>
-		</div> <img src="images/image-geometry_1.svg" alt="Principal image" class="image-big" /> <img
-			src="images/image_geometry_2.svg" alt="Background image on mobile" class="image-down" /> <img
-			src="images/image_dot.png" alt="" class="image-dot" />
+		<!--FIRST CARD MOBILE-->
+		<div class="first">
+			<h3 class="first-title">Project name goes here</h3> <img class="component-1" src="images/component_1_.png"
+				alt="Project number one" />
+			<ul class="keywords-first">
+				<li>HTML/CSS</li>
+				<li>Ruby on Rails</li>
+				<li>Javascript</li>
+			</ul> <button class="buttonbox-first">See this project<img src="images/Union.png" /></button>
+		</div> <img class="dot-projects" src="images/image_dot.png" alt="" class="image-dot" />
+		<!--SECOND CARD MOBILE-->
+		<div class="second">
+			<h3 class="second-title">Project name goes...</h3>
+			<ul class="keywords-second">
+				<li>HTML/CSS</li>
+				<li>Ruby on Rails</li>
+				<li>+1</li>
+			</ul> <button class="buttonbox-second">See this project<img src="images/Union.png" /></button> <img
+				class="component2" src="images/component_5.png" alt="Project number five" />
+		</div>
+		<!--CENTER GEOMETRY IMG-->
+		<div class="geometry-center"> <img src="images/image-geometry_2.png" alt=""> </div>
+		<div class="pc-left"> <img src="images/pc_img_left.png" alt=""> </div> <a href="#" class="logo"><img
+				src="images/logo.svg"></a>
+		<div class="pc-left-bigger"> <img src="images/pc_img_left_2.png" alt=""> </div>
+		<div class="pc-right-squares"> <img src="images/image-geometry_3.png" alt=""> </div>
+		<div class="dot-right-yellow"> <img src="images/image-geometry_4.png" alt=""> </div>
+		<div class="pc-left-squares"> <img src="images/image-geometry_5.png" alt=""> </div>
+		<div class="pc-right-yellow"> <img src="images/pc_right.png" alt=""> </div>
+		<div class="box two">
+			<h3>Project name goes here</h3> <img class="component" src="images/component_2.png" alt="Proyect number two" />
+			<ul class="keywords">
+				<li>HTML/CSS</li>
+				<li>Ruby on Rails</li>
+				<li>Javascript</li>
+			</ul> <button class="buttonbox">See this project<img src="images/Union.png" /></button>
+		</div>
+		<div class="box three">
+			<h3>Project name goes here</h3> <img class="component" src="images/component_3.png" alt="Project number three" />
+			<ul class="keywords">
+				<li>HTML/CSS</li>
+				<li>Ruby on Rails</li>
+				<li>Javascript</li>
+			</ul> <button class="buttonbox">See this project<img src="images/Union.png" /></button>
+		</div>
+		<div class="box four">
+			<h3>Project name goes here</h3> <img class="component" src="images/component_4.png" alt="Project number four" />
+			<ul class="keywords">
+				<li>HTML/CSS</li>
+				<li>Ruby on Rails</li>
+				<li>Javascript</li>
+			</ul> <button class="buttonbox">See this project<img src="images/Union.png" /></button>
+		</div>
+		<div class="box five">
+			<h3>Project name goes here</h3> <img class="component" src="images/component_5.png" alt="Project number five" />
+			<ul class="keywords">
+				<li>HTML/CSS</li>
+				<li>Ruby on Rails</li>
+				<li>Javascript</li>
+			</ul> <button class="buttonbox">See this project<img src="images/Union.png" /></button>
+		</div>
+		<div class="box six">
+			<h3>Project name goes here</h3> <img class="component" src="images/component_6.png" alt="Project number six" />
+			<ul class="keywords">
+				<li>HTML/CSS</li>
+				<li>Ruby on Rails</li>
+				<li>Javascript</li>
+			</ul> <button class="buttonbox">See this project<img src="images/Union.png" /></button>
+		</div>
+	</section>
 
-		<section class="projects">
-			<h2>Projects</h2>
-			<div class="box one">
-				<h3 class="first-title">Project name goes here</h3> <img class="component" src="images/component_1.png"
-					alt="Project number one" />
-				<ul class="keywords">
-					<li>HTML/CSS</li>
-					<li>Ruby on Rails</li>
-					<li>Javascript</li>
-				</ul> <button class="buttonbox">See this project<img src="images/Union.png" /></button>
-			</div>
-			<!--FIRST CARD MOBILE-->
-			<div class="first">
-				<h3 class="first-title">Project name goes here</h3> <img class="component-1" src="images/component_1_.png"
-					alt="Project number one" />
-				<ul class="keywords-first">
-					<li>HTML/CSS</li>
-					<li>Ruby on Rails</li>
-					<li>Javascript</li>
-				</ul> <button class="buttonbox-first">See this project<img src="images/Union.png" /></button>
-			</div> <img class="dot-projects" src="images/image_dot.png" alt="" class="image-dot" />
-			<!--SECOND CARD MOBILE-->
-			<div class="second">
-				<h3 class="second-title">Project name goes...</h3>
-				<ul class="keywords-second">
-					<li>HTML/CSS</li>
-					<li>Ruby on Rails</li>
-					<li>+1</li>
-				</ul> <button class="buttonbox-second">See this project<img src="images/Union.png" /></button> <img
-					class="component2" src="images/component_5.png" alt="Project number five" />
-			</div>
-			<!--CENTER GEOMETRY IMG-->
-			<div class="geometry-center"> <img src="images/image-geometry_2.png" alt=""> </div>
-			<div class="pc-left"> <img src="images/pc_img_left.png" alt=""> </div> <a href="#" class="logo"><img
-					src="images/logo.svg"></a>
-			<div class="pc-left-bigger"> <img src="images/pc_img_left_2.png" alt=""> </div>
-			<div class="pc-right-squares"> <img src="images/image-geometry_3.png" alt=""> </div>
-			<div class="dot-right-yellow"> <img src="images/image-geometry_4.png" alt=""> </div>
-			<div class="pc-left-squares"> <img src="images/image-geometry_5.png" alt=""> </div>
-			<div class="pc-right-yellow"> <img src="images/pc_right.png" alt=""> </div>
-			<div class="box two">
-				<h3>Project name goes here</h3> <img class="component" src="images/component_2.png" alt="Proyect number two" />
-				<ul class="keywords">
-					<li>HTML/CSS</li>
-					<li>Ruby on Rails</li>
-					<li>Javascript</li>
-				</ul> <button class="buttonbox">See this project<img src="images/Union.png" /></button>
-			</div>
-			<div class="box three">
-				<h3>Project name goes here</h3> <img class="component" src="images/component_3.png"
-					alt="Project number three" />
-				<ul class="keywords">
-					<li>HTML/CSS</li>
-					<li>Ruby on Rails</li>
-					<li>Javascript</li>
-				</ul> <button class="buttonbox">See this project<img src="images/Union.png" /></button>
-			</div>
-			<div class="box four">
-				<h3>Project name goes here</h3> <img class="component" src="images/component_4.png" alt="Project number four" />
-				<ul class="keywords">
-					<li>HTML/CSS</li>
-					<li>Ruby on Rails</li>
-					<li>Javascript</li>
-				</ul> <button class="buttonbox">See this project<img src="images/Union.png" /></button>
-			</div>
-			<div class="box five">
-				<h3>Project name goes here</h3> <img class="component" src="images/component_5.png" alt="Project number five" />
-				<ul class="keywords">
-					<li>HTML/CSS</li>
-					<li>Ruby on Rails</li>
-					<li>Javascript</li>
-				</ul> <button class="buttonbox">See this project<img src="images/Union.png" /></button>
-			</div>
-			<div class="box six">
-				<h3>Project name goes here</h3> <img class="component" src="images/component_6.png" alt="Project number six" />
-				<ul class="keywords">
-					<li>HTML/CSS</li>
-					<li>Ruby on Rails</li>
-					<li>Javascript</li>
-				</ul> <button class="buttonbox">See this project<img src="images/Union.png" /></button>
-			</div>
+	<section class="about">
+		<h1 id="about">About</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+			dolore
+			magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea
+			eiusmod </p>
+		<button class="cv">Get my CV <img src="images/ic_download.svg" /></button>
+		<section class="languages">
+			<h4>Languages</h4>
+			<ul>
+				<li>JavaScript(ES5/ES6)</li>
+				<li>Ruby</li>
+				<li>HTML</li>
+				<li>CSS</li>
+			</ul> <img src="images/hash.png" alt="">
 		</section>
+		<section class="frameworks">
+			<h4>Frameworks</h4>
+			<ul>
+				<li>Bootstraps</li>
+				<li>Ruby on rails</li>
+				<li>RSpec</li>
+				<li>Capibara</li>
+				<li>Selenium</li>
+			</ul> <img src="images/frameworks.png" alt="">
+		</section>
+		<section class="skills">
+			<h4>Skills</h4>
+			<ul>
+				<li>Codekit</li>
+				<li>Codepen</li>
+				<li>GitHub</li>
+				<li>GitLab</li>
+				<li>Terminal</li>
+			</ul> <img src="images/ic_skills.svg" alt="">
+		</section>
+		<div class="dots-teal"> <img src="images/image_dots_with_teal.png" alt=""> </div>
+	</section>
 
-		<section class="about">
-			<h1>About</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-				magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod </p>
-			<button class="cv">Get my CV <img src="images/ic_download.svg" /></button>
-			<section class="languages">
-				<h4>Languages</h4>
-				<ul>
-					<li>JavaScript(ES5/ES6)</li>
-					<li>Ruby</li>
-					<li>HTML</li>
-					<li>CSS</li>
-				</ul> <img src="images/hash.png" alt="">
-			</section>
-			<section class="frameworks">
-				<h4>Frameworks</h4>
-				<ul>
-					<li>Bootstraps</li>
-					<li>Ruby on rails</li>
-					<li>RSpec</li>
-					<li>Capibara</li>
-					<li>Selenium</li>
-				</ul> <img src="images/frameworks.png" alt="">
-			</section>
-			<section class="skills">
-				<h4>Skills</h4>
-				<ul>
-					<li>Codekit</li>
-					<li>Codepen</li>
-					<li>GitHub</li>
-					<li>GitLab</li>
-					<li>Terminal</li>
-				</ul> <img src="images/ic_skills.svg" alt="">
-			</section>
-			<div class="dots-teal"> <img src="images/image_dots_with_teal.png" alt=""> </div>
-		</section>
+	<section class="form">
+		<img class="logo-form-mobile" src="images/logo.svg" alt="">
+		<img class="logo-form-desk" src="images/image-geometry_6.png">
+		<h1 id="form">Get started</h1>
+		<p class="p-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+			labore et dolore magna.</p>
+		<p class="p-desktop">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+			labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+			ex ea commodo consequat</p>
+		<form class="form-start" action="https://formspree.io/f/mwkjeepg" method="POST"> <input class="name" type="text"
+				name="name" id="name" maxlength="30" placeholder="Your name" required>
+			<input class="email" type="email" name="email" id="email" placeholder="Your email" required>
+			<textarea class="message" name="message" id="message" maxlength="500" placeholder="Enter your message here"
+				required></textarea> <button type="submit" class="start">Start
+				collaboration</button>
+		</form>
+		<div class="img-form"> <img src="images/image-geometry_7.png" alt=""> </div>
+	</section>
 
-		<section class="form"> <img class="logo-form-mobile" src="images/logo.svg" alt=""> <img class="logo-form-desk"
-				src="images/image-geometry_6.png">
-			<h1>Get started</h1>
-			<p class="p-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna.</p>
-			<p class="p-desktop">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-				aliquip ex ea commodo consequat</p>
-			<form class="form-start" action="https://formspree.io/f/mwkjeepg" method="POST"> <input class="name" type="text"
-					name="name" id="name" maxlength="30" placeholder="Your name" required> <input class="email" type="email"
-					name="email" id="email" placeholder="Your email" required> <textarea class="message" name="message"
-					id="message" maxlength="500" placeholder="Enter your message here" required></textarea> <button type="submit"
-					class="start">Start collaboration</button> </form>
-			<div class="img-form"> <img src="images/image-geometry_7.png" alt=""> </div>
-		</section>
+	<section class="footer">
+		<div class="resume">
+			<a href="#">Get my Resume</a> <img src="images/get.png" alt="">
+		</div>
+		<div class="social">
+			<img src="images/ic_stackoverflow.svg" alt="">
+			<img src="images/ic_github.svg" alt="">
+			<img src="images/ic_twitter.svg" alt=""> <img src="images/ic_linkedin.svg" alt=""> <img src="images/ic_medium.svg"
+				alt=""> <img src="images/ic_angellist.svg" alt="">
+		</div>
+	</section>
 
-		<section class="footer">
-			<div class="resume">
-				<a href="#">Get my Resume</a> <img src="images/get.png" alt="">
-			</div>
-			<div class="social">
-				<img src="images/ic_stackoverflow.svg" alt="">
-				<img src="images/ic_github.svg" alt="">
-				<img src="images/ic_twitter.svg" alt=""> <img src="images/ic_linkedin.svg" alt=""> <img
-					src="images/ic_medium.svg" alt=""> <img src="images/ic_angellist.svg" alt="">
-			</div>
-		</section>
+
+	<script src="portfolio.js"></script>
 </body>
 
 </html>
