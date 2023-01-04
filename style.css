@@ -92,6 +92,7 @@ a:active {
 
 .mobile-menu li a {
   text-decoration: none;
+  color: black;
 }
 
 .mobile-logo {
@@ -150,10 +151,7 @@ h2 {
   height: 50px;
   left: 16px;
   top: 700px;
-  font-family:
-    "Playfair Display",
-    "Trebuchet MS",
-    "Lucida Sans Unicode",
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
     sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -526,10 +524,7 @@ h4 {
   height: 56px;
   left: 16px;
   top: 4794px;
-  font-family:
-    "Playfair Display",
-    "Trebuchet MS",
-    "Lucida Sans Unicode",
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
     sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -689,12 +684,14 @@ h4 {
 
 @media (min-width: 768px) {
   .hamburger,
+  .burger,
   .mobile_menu,
   .image-down,
   .mobile-logo,
   .mobile-x,
   .mobile-menu,
   .mobile-dot,
+  .menu-mobile-down,
   .mobile-dot-2 {
     display: none;
   }
