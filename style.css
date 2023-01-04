@@ -47,14 +47,8 @@ body {
   text-decoration: none;
 }
 
-a:focus {
-  text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
+a:focus,
+a:hover,
 a:active {
   text-decoration: underline;
 }
