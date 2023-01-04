@@ -21,18 +21,18 @@
 
 <body>
 	<header class="header">
-		<nav class="burger"> <a class="hamburger"><img src="images/hamburger.svg" /></a>
+		<nav class="burger" onclick="showMobileMenu()"> <a class="hamburger"><img src="images/hamburger.svg" /></a>
 		</nav>
 		<!--MOBILE MENU-->
 		<nav class="mobile-menu">
 			<img class="mobile-logo" src="images/mobile_menu_geometry.png" alt="">
-			<div><img class="mobile-x" src="images/x-union.png" alt=""></div>
+			<div><img onclick="closeMenu()" class="mobile-x" src="images/x-union.png" alt=""></div>
 			<img src="images/mobile_dot.png" alt="" class="mobile-dot">
 			<ul>
-				<li><a class="mobile-item" href="#description">Hello</a></li>
-				<li><a class="mobile-item" href="#project">Portfolio</a>
-				<li><a class="mobile-item" href="#about">About</a>
-				<li><a class="mobile-item" href="#form">Contact</a>
+				<li><a class="mobile-item" onclick="closeMenu()" href="#description">Hello</a></li>
+				<li><a class="mobile-item" onclick="closeMenu()" href="#projects">Portfolio</a>
+				<li><a class="mobile-item" onclick="closeMenu()" href="#about">About</a>
+				<li><a class="mobile-item" onclick="closeMenu()" href="#form">Contact</a>
 					<img src="images/mobile_dot.png" alt="" class="mobile-dot-2">
 					<img src="images/Mask Group.png" alt="" class="menu-mobile-down">
 			</ul>
@@ -213,7 +213,7 @@
 	</section>
 
 
-	<!--<script src="portfolio.js"></script>-->
+	<script src="portfolio.js"></script>
 </body>
 
 </html>
