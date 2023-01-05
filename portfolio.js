@@ -70,7 +70,7 @@ const projectsCards = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_1.png',
     alt: 'laptop',
-    technologies: [
+    keywords: [
       'HTML/CSS',
       'Ruby on Rails',
       'Javascript'],
@@ -84,7 +84,7 @@ const projectsCards = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_2.png',
     alt: 'laptop',
-    technologies: [
+    keywords: [
       'HTML/CSS',
       'Ruby on Rails',
       'Javascript'],
@@ -98,7 +98,7 @@ const projectsCards = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_3.png',
     alt: 'laptop',
-    technologies: [
+    keywords: [
       'HTML/CSS',
       'Ruby on Rails',
       'Javascript'],
@@ -112,7 +112,7 @@ const projectsCards = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_4.png',
     alt: 'laptop',
-    technologies: [
+    keywords: [
       'HTML/CSS',
       'Ruby on Rails',
       'Javascript'],
@@ -126,7 +126,7 @@ const projectsCards = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_5.png',
     alt: 'laptop',
-    technologies: [
+    keywords: [
       'HTML/CSS',
       'Ruby on Rails',
       'Javascript'],
@@ -136,4 +136,3 @@ const projectsCards = [
   }
 
 ]
-
