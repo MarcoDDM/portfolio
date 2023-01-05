@@ -1,5 +1,5 @@
 function hideElements() {
-  const elements = document.querySelectorAll('.hamburger,  .headline, .image-down, .description, .projects, .about, .form, .footer');
+  const elements = document.querySelectorAll('.hamburger, .logo,  .headline, .image-down, .description, .projects, .about, .form, .footer');
 
   elements.forEach((element) => {
     element.style.display = 'none';
@@ -16,7 +16,7 @@ function hideMenu() {
 function closeMenu() {
   hideMenu();
   const elements = document
-    .querySelectorAll('.hamburger, .headline, .image-down, .description, .projects, .about, .form, .footer');
+    .querySelectorAll('.hamburger, .headline, .logo, .image-down, .description, .projects, .about, .form, .footer');
   if (window.innerWidth <= 768) {
     // Show the elements on mobile devices
     elements.forEach((element) => {
@@ -133,6 +133,21 @@ const projectsCards = [
     liveVersion: '#',
     source: '#',
 
-  }
+  },
+  {
+    id: 6,
+    name: 'Project name goes here',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    image: 'images/component_5.png',
+    alt: 'laptop',
+    keywords: [
+      'HTML/CSS',
+      'Ruby on Rails',
+      'Javascript'],
+    liveVersion: '#',
+    source: '#',
 
+  }
 ]
+
+//how to render projectsCard content dynamically without bootstrap on cards div??

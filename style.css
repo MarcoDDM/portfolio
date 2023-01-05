@@ -145,10 +145,7 @@ h2 {
   height: 50px;
   left: 16px;
   top: 700px;
-  font-family:
-    "Playfair Display",
-    "Trebuchet MS",
-    "Lucida Sans Unicode",
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
     sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -521,10 +518,7 @@ h4 {
   height: 56px;
   left: 16px;
   top: 4794px;
-  font-family:
-    "Playfair Display",
-    "Trebuchet MS",
-    "Lucida Sans Unicode",
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
     sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -692,7 +686,8 @@ h4 {
   .mobile-menu,
   .mobile-dot,
   .menu-mobile-down,
-  .mobile-dot-2 {
+  .mobile-dot-2,
+  .logo {
     display: none;
   }
 
@@ -703,10 +698,6 @@ h4 {
     width: 96%;
     background-color: #f3f3f3;
     height: 0.1px;
-  }
-
-  .logo {
-    display: none;
   }
 
   .headline {
