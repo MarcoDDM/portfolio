@@ -60,3 +60,80 @@ showMenuButton.addEventListener('click', showMobileMenu);
 
 const closeMenuButton = document.getElementById('.mobile-x');
 closeMenuButton.addEventListener('click', closeMenu);
+
+//RENDER CARDS DYNAMICALLY
+
+const projectsCards = [
+  {
+    id: 1,
+    name: 'Project name goes here',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    image: 'images/component_1.png',
+    alt: 'laptop',
+    technologies: [
+      'HTML/CSS',
+      'Ruby on Rails',
+      'Javascript'],
+    liveVersion: '#',
+    source: '#',
+
+  },
+  {
+    id: 2,
+    name: 'Project name goes here',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    image: 'images/component_2.png',
+    alt: 'laptop',
+    technologies: [
+      'HTML/CSS',
+      'Ruby on Rails',
+      'Javascript'],
+    liveVersion: '#',
+    source: '#',
+
+  },
+  {
+    id: 3,
+    name: 'Project name goes here',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    image: 'images/component_3.png',
+    alt: 'laptop',
+    technologies: [
+      'HTML/CSS',
+      'Ruby on Rails',
+      'Javascript'],
+    liveVersion: '#',
+    source: '#',
+
+  },
+  {
+    id: 4,
+    name: 'Project name goes here',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    image: 'images/component_4.png',
+    alt: 'laptop',
+    technologies: [
+      'HTML/CSS',
+      'Ruby on Rails',
+      'Javascript'],
+    liveVersion: '#',
+    source: '#',
+
+  },
+  {
+    id: 5,
+    name: 'Project name goes here',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    image: 'images/component_5.png',
+    alt: 'laptop',
+    technologies: [
+      'HTML/CSS',
+      'Ruby on Rails',
+      'Javascript'],
+    liveVersion: '#',
+    source: '#',
+
+  }
+
+]
+
