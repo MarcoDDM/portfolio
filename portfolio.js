@@ -190,13 +190,17 @@ function generateProjectCards(projects) {
       <div class="${project.classDesktop}">
         <img class="" src="${project.imageDesktop}" alt="${project.alt}">
         <h3 class="first-title">${project.name}</h3>
-        <ul class="keywords-">
+        <ul class="keywords">
           ${project.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
         </ul>
         <div>
           <button class="buttonbox" href="${project.liveVersion}">See this project 🡲</button>
         </div>
       </div>
+      <div class="geometry-center"> <img src="images/image-geometry_2.png" alt=""> </div>
+      <div class="pc-right-squares"> <img src="images/image-geometry_3.png" alt=""> </div>
+      <div class="dot-right-yellow"> <img src="images/image-geometry_4.png" alt=""> </div>
+      <div class="pc-left-squares"> <img src="images/image-geometry_5.png" alt=""> </div>
     `;
     projectCards.push(projectCard);
   }
