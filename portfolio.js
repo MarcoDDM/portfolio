@@ -158,7 +158,7 @@ function generateProjectCards(projects) {
   const projectCards = [];
   for (const project of projects) {
     const projectCard = `
-      <div class="class="box ${project.class}">
+      <div class="box ${project.class}">
         <img class="component" src="${project.image}" alt="${project.alt}">
         <h3 class="first-title">${project.name}</h3>
         <ul class="keywords">
