@@ -66,7 +66,7 @@ const projectsCards = [
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_1.png',
-    alt: 'laptop',
+    alt: 'Project number one',
     keywords: [
       'HTML/CSS',
       'Ruby on Rails',
@@ -81,7 +81,7 @@ const projectsCards = [
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_2.png',
-    alt: 'laptop',
+    alt: 'Project number two',
     keywords: [
       'HTML/CSS',
       'Ruby on Rails',
@@ -96,7 +96,7 @@ const projectsCards = [
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_3.png',
-    alt: 'laptop',
+    alt: 'Project number three',
     keywords: [
       'HTML/CSS',
       'Ruby on Rails',
@@ -111,7 +111,7 @@ const projectsCards = [
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_4.png',
-    alt: 'laptop',
+    alt: 'Project number four',
     keywords: [
       'HTML/CSS',
       'Ruby on Rails',
@@ -126,7 +126,7 @@ const projectsCards = [
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_5.png',
-    alt: 'laptop',
+    alt: 'Project number five',
     keywords: [
       'HTML/CSS',
       'Ruby on Rails',
@@ -141,7 +141,7 @@ const projectsCards = [
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_6.png',
-    alt: 'laptop',
+    alt: 'Project number six',
     keywords: [
       'HTML/CSS',
       'Ruby on Rails',
