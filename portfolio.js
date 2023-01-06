@@ -165,7 +165,7 @@ function generateProjectCards(projects) {
           ${project.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
         </ul>
         <div>
-          <a class="buttonbox" href="${project.liveVersion}">Live Version</a>
+          <button class="buttonbox" href="${project.liveVersion}">See this project 🡲</button>
         </div>
       </div>
     `;
