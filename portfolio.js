@@ -177,7 +177,6 @@ const projectsCards = [
 ]
 
 
-
 function generateProjectCards(projects) {
   const projectCards = [];
   for (const project of projects) {
@@ -190,7 +189,7 @@ function generateProjectCards(projects) {
           ${project.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
         </ul>
         <div>
-          <button class="buttonbox" href="${project.liveVersion}">See this project 🡲</button>
+          <button class="buttonbox" onclick="showModal(${project.id})">See this project 🡲</button>
         </div>
       </div>
       <div class="${project.classDesktop}">
@@ -200,8 +199,8 @@ function generateProjectCards(projects) {
           <ul class="keywords">
             ${project.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
           </ul>
-          <div>
-            <button class="buttonbox" href="${project.liveVersion}">See this project 🡲</button>
+          <div class="buttonboxDesktop" >
+            <button href="${project.liveVersion}">See this project 🡲</button>
           </div>
         </div>
       </div>
@@ -218,6 +217,47 @@ function generateProjectCards(projects) {
 const projectCardsHTML = generateProjectCards(projectsCards);
 document.querySelector('.cards').innerHTML = projectCardsHTML;
 
+const showModal = (id) => {
+  // Find the project with the specified id in the projectsCards array
+  const projectInfo = projectsCards.find(project => project.id === id);
+
+  // If a project was found, show the modal
+  if (projectInfo) {
+    const myModal = document.getElementById('myModal');
+    myModal.style.display = 'flex';
+
+    // Create the modal content elements using innerHTML
+    myModal.innerHTML = `
+      <div class="modal-content">
+        <button id="closeModalX" onclick="closeModal()" class="close-modal close">&times</button>
+        <h3 class="project-title-modal">${projectInfo.name}</h3>
+        <ul class="card-tech-modal">
+          ${projectInfo.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
+        </ul>
+        <img class="project-image modal-img" src="${projectInfo.image}" alt="${projectInfo.alt}">
+        <p class="project-description">${projectInfo.description}</p>
+        <div class="btns-modal">
+          <button class="btn-modal seeLive">See live
+            <img class="iconModal" src="">
+          </button>
+          <button class="btn-modal seeSource">See source
+            <img class="iconModal" src="">
+          </button>
+        </div>
+        <div class="next-prev-proj">
+          <button class="prev-btn"> &larr; Previous project</button>
+          <button class="prev-btn">Next Project &rarr;</button>
+        </div>
+      </div>
+    `;
+  }
+};
+
+
+const closeModal = () => {
+  const myModal = document.getElementById('myModal');
+  myModal.style.display = 'none';
+};
 
 
 

@@ -237,6 +237,37 @@ h2 {
   display: grid;
 }
 
+.modal-content {
+  background-color: azure;
+  height: 100vh;
+  width: 340px;
+  position: absolute;
+  width: 340px;
+  z-index: 4;
+  top: 0px;
+}
+
+.card-tech-modal {
+  list-style-type: none;
+}
+
+.card-tech-modal li {
+  display: inline;
+  width: 69px;
+  height: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  padding: 5px 10px 5px 10px;
+
+  /* or 8px */
+  background: #ffffff;
+  border: 0.516669px solid #1a2236;
+  margin-left: 10px;
+}
+
 .component {
   /* Rectangle 21 */
 
@@ -342,6 +373,26 @@ h3 {
 
 .buttonbox img {
   align-items: center;
+}
+
+.buttonboxDesktop button {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
+  /* identical to box height */
+
+  text-align: center;
+  position: absolute;
+  width: 212px;
+  height: 51px;
+  margin-top: 30px;
+  background: #fff;
+  width: 212px;
+  height: 51px;
+  left: 25px;
 }
 
 .about {
@@ -666,6 +717,7 @@ h4 {
   .keywords-second,
   .buttonbox-first,
   .buttonbox-second,
+  .buttonboxDesktop,
   .geometry-center,
   .pc-left,
   .pc-left-bigger,
@@ -693,8 +745,11 @@ h4 {
   .image-down,
   .mobile-logo,
   .mobile-x,
+  .boxDsk4,
+  .six-desktop,
   .mobile-menu,
   .mobile-dot,
+  .modal-content,
   .menu-mobile-down,
   .mobile-dot-2 {
     display: none;
@@ -805,11 +860,25 @@ h4 {
     display: none;
   }
 
+  .boxDsk5 {
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 1;
+    width: 465px;
+    height: 230px;
+    left: -147px;
+    background: rgb(26, 34, 54);
+    border: 0px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    top: -191px;
+  }
+
   .first {
     width: 960px;
-    height: 380px;
+    height: 530px;
     left: 560px;
-    top: 1350px;
+    top: 1132px;
     z-index: 2;
     flex-wrap: wrap;
     position: absolute;
@@ -837,12 +906,12 @@ h4 {
     width: 726px;
     height: 48px;
     left: 540px;
-    padding-left: 60px;
+    padding-left: 22px;
     margin-bottom: 34px;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 54px;
     line-height: 80%;
 
     /* identical to box height, or 48px */
@@ -905,8 +974,21 @@ h4 {
   }
 
   .component2 {
+    margin-top: -111px;
+    position: absolute;
     width: 100%;
-    margin-top: 90px;
+    height: 291px;
+    left: 1192px;
+    top: 2033px;
+  }
+
+  .component2 img {
+    position: absolute;
+    height: 100%;
+    margin-left: -147px;
+    width: 465px;
+    z-index: 1;
+    top: 38px;
   }
 
   .second-title {
