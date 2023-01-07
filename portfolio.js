@@ -200,7 +200,7 @@ function generateProjectCards(projects) {
             ${project.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
           </ul>
           <div class="buttonboxDesktop" >
-            <button href="${project.liveVersion}">See this project 🡲</button>
+            <button onclick="showModal(${project.id})">See this project 🡲</button>
           </div>
         </div>
       </div>
@@ -229,6 +229,27 @@ const showModal = (id) => {
     // Create the modal content elements using innerHTML
     myModal.innerHTML = `
       <div class="modal-content">
+        <button id="closeModalX" onclick="closeModal()" class="close-modal close">&times</button>
+        <h3 class="project-title-modal">${projectInfo.name}</h3>
+        <ul class="card-tech-modal">
+          ${projectInfo.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
+        </ul>
+        <img class="project-image modal-img" src="${projectInfo.image}" alt="${projectInfo.alt}">
+        <p class="project-description">${projectInfo.description}</p>
+        <div class="btns-modal">
+          <button class="btn-modal seeLive">See live
+            <img class="iconModal" src="">
+          </button>
+          <button class="btn-modal seeSource">See source
+            <img class="iconModal" src="">
+          </button>
+        </div>
+        <div class="next-prev-proj">
+          <button class="prev-btn"> &larr; Previous project</button>
+          <button class="prev-btn">Next Project &rarr;</button>
+        </div>
+      </div>
+      <div class="modal-desktop">
         <button id="closeModalX" onclick="closeModal()" class="close-modal close">&times</button>
         <h3 class="project-title-modal">${projectInfo.name}</h3>
         <ul class="card-tech-modal">

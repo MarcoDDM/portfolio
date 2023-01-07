@@ -224,6 +224,7 @@ h2 {
 }
 
 .image-down {
+  display: flex;
   position: relative;
   width: 375px;
   background-position: center;
@@ -817,6 +818,8 @@ h4 {
   .prev-btn,
   .logo-form-desk,
   .dot-projects,
+  .modal-content,
+  .modal-desktop,
   .mobile-menu {
     display: none;
   }
@@ -829,8 +832,10 @@ h4 {
   .burger,
   .mobile_menu,
   .image-down,
+  .img-dwn,
   .mobile-logo,
   .mobile-x,
+  .boxDsk3,
   .boxDsk4,
   .six-desktop,
   .mobile-menu,
@@ -1120,6 +1125,17 @@ h4 {
 
     text-align: center;
     color: #1a2236;
+  }
+
+  .modal-desktop {
+    position: absolute;
+    width: 1300px;
+    height: 1711px;
+    left: 70px;
+    top: 70px;
+    z-index: 2;
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
   }
 
   .geometry-center {
