@@ -55,9 +55,7 @@ links.forEach((link) => {
   });
 });
 
-
-
-//RENDER CARDS DYNAMICALLY
+// RENDER CARDS DYNAMICALLY
 
 const projectsCards = [
   {
@@ -173,20 +171,20 @@ const projectsCards = [
     liveVersion: '#',
     source: '#',
 
-  }
-]
-
+  },
+];
 
 function generateProjectCards(projects) {
   const projectCards = [];
-  for (const project of projects) {
+  for (let i = 0; i < projects.length; i += 1) {
+    const project = projects[i];
     const projectCard = `
       <div class="box ${project.class}">
         <img class="component" src="${project.image}" alt="${project.alt}">
         <img class="${project.classImgDesktop}" src="${project.imageDesktop}" alt="${project.alt}">
         <h3 class="first-title">${project.name}</h3>
         <ul class="keywords">
-          ${project.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
+          ${project.keywords.map((keyword) => `<li>${keyword}</li>`).join('')}
         </ul>
         <div>
           <button class="buttonbox" onclick="showModal(${project.id})">See this project 🡲</button>
@@ -197,7 +195,7 @@ function generateProjectCards(projects) {
         <div class="${project.boxClass}">
           <h3 class="first-title">${project.name}</h3>
           <ul class="keywords">
-            ${project.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
+            ${project.keywords.map((keyword) => `<li>${keyword}</li>`).join('')}
           </ul>
           <div class="buttonboxDesktop" >
             <button onclick="showModal(${project.id})">See this project 🡲</button>
@@ -219,7 +217,7 @@ document.querySelector('.cards').innerHTML = projectCardsHTML;
 
 const showModal = (id) => {
   // Find the project with the specified id in the projectsCards array
-  const projectInfo = projectsCards.find(project => project.id === id);
+  const projectInfo = projectsCards.find((project) => project.id === id);
 
   // If a project was found, show the modal
   if (projectInfo) {
@@ -232,7 +230,7 @@ const showModal = (id) => {
         <button id="closeModalX" onclick="closeModal()" class="close-modal close">&times</button>
         <h3 class="project-title-modal">${projectInfo.name}</h3>
         <ul class="card-tech-modal">
-          ${projectInfo.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
+          ${projectInfo.keywords.map((keyword) => `<li>${keyword}</li>`).join('')}
         </ul>
         <img class="project-image modal-img" src="${projectInfo.image}" alt="${projectInfo.alt}">
         <p class="project-description">${projectInfo.description}</p>
@@ -253,7 +251,7 @@ const showModal = (id) => {
         <button onclick="closeModal()" class="close-modal closeDsk">&times</button>
         <h3 class="title-modal-desktop">${projectInfo.name}</h3>
         <ul class="card-desktop-keywords">
-          ${projectInfo.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
+          ${projectInfo.keywords.map((keyword) => `<li>${keyword}</li>`).join('')}
         </ul>
         <img class="project-image modal-img modal-img-dsk" src="${projectInfo.image}" alt="${projectInfo.alt}">
         <p class="project-description-dsk">${projectInfo.description}</p>
@@ -274,24 +272,21 @@ const showModal = (id) => {
   }
 };
 
-
 const closeModal = () => {
   const myModal = document.getElementById('myModal');
   myModal.style.display = 'none';
 };
 
+const showMenuButton = document.querySelectorAll('.burger');
+showMenuButton.addEventListener('click', showMobileMenu);
 
+const closeMenuButton = document.querySelectorAll('.mobile-x');
+closeMenuButton.addEventListener('click', closeMenu);
 
+// Get the modal buttons
+const showModalButton = document.querySelector('#show-modal-button');
+const closeModalButton = document.querySelector('#close-modal-button');
 
-
-
-
-
-
-
-
-// const showMenuButton = document.querySelectorAll('.burger');
-// showMenuButton.addEventListener('click', showMobileMenu);
-
-// const closeMenuButton = document.querySelectorAll('.mobile-x');
-// closeMenuButton.addEventListener('click', closeMenu);
+// Add click event listeners to the buttons
+showModalButton.addEventListener('click', showModal);
+closeModalButton.addEventListener('click', closeModal);
