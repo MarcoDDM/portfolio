@@ -65,6 +65,7 @@ const projectsCards = [
     class: 'one',
     classDesktop: 'first',
     classImgDesktop: 'pc-left',
+    boxClass: 'boxDsk',
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_1.png',
@@ -83,6 +84,7 @@ const projectsCards = [
     class: 'two',
     classDesktop: 'pc-left',
     classImgDesktop: 'pc-left',
+    boxClass: 'boxDsk2',
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_2.png',
@@ -101,6 +103,7 @@ const projectsCards = [
     class: 'three',
     classDesktop: 'pc-left-bigger',
     classImgDesktop: 'pc-left-bigger',
+    boxClass: 'boxDsk3',
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_3.png',
@@ -119,6 +122,7 @@ const projectsCards = [
     class: 'four',
     classDesktop: 'pc-right-yellow',
     classImgDesktop: 'pc-left',
+    boxClass: 'boxDsk4',
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_4.png',
@@ -137,6 +141,7 @@ const projectsCards = [
     class: 'five',
     classDesktop: 'component2',
     classImgDesktop: 'component2',
+    boxClass: 'boxDsk5',
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_5.png',
@@ -155,6 +160,7 @@ const projectsCards = [
     class: 'six',
     classDesktop: 'six-desktop',
     classImgDesktop: 'six-desktop',
+    boxClass: 'boxDsk6',
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/component_6.png',
@@ -189,12 +195,14 @@ function generateProjectCards(projects) {
       </div>
       <div class="${project.classDesktop}">
         <img class="" src="${project.imageDesktop}" alt="${project.alt}">
-        <h3 class="first-title">${project.name}</h3>
-        <ul class="keywords">
-          ${project.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
-        </ul>
-        <div>
-          <button class="buttonbox" href="${project.liveVersion}">See this project 🡲</button>
+        <div class="${project.boxClass}">
+          <h3 class="first-title">${project.name}</h3>
+          <ul class="keywords">
+            ${project.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
+          </ul>
+          <div>
+            <button class="buttonbox" href="${project.liveVersion}">See this project 🡲</button>
+          </div>
         </div>
       </div>
       <div class="geometry-center"> <img src="images/image-geometry_2.png" alt=""> </div>
