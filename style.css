@@ -239,16 +239,88 @@ h2 {
 
 .modal-content {
   background-color: azure;
-  height: 100vh;
-  width: 340px;
+  height: 170vh;
   position: absolute;
-  width: 340px;
+  width: 375px;
   z-index: 4;
   top: 0px;
 }
 
 .card-tech-modal {
   list-style-type: none;
+  padding-left: 10px;
+}
+
+.close {
+  border: none;
+  font-size: 42px;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  left: 325px;
+}
+
+.project-title-modal {
+  position: absolute;
+  width: 264px;
+  height: 16px;
+  left: 0px;
+  top: 15px;
+  padding-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 80%;
+  /* identical to box height, or 16px */
+
+  color: #1a2236;
+}
+
+.project-description {
+  position: absolute;
+  width: 291px;
+  height: 432px;
+  left: 11px;
+  top: 366px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #1a2236;
+
+  align-items: center;
+  display: flex;
+  margin: auto;
+  padding-left: 10px;
+}
+
+.seeLive {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  margin: auto;
+  margin-top: 540px;
+  display: flex;
+  padding: 10px 100px 10px 100px;
+}
+
+.seeSource {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  margin: auto;
+  margin-top: 29px;
+  display: flex;
+  padding: 9px 82px 9px 82px;
 }
 
 .card-tech-modal li {
@@ -266,6 +338,9 @@ h2 {
   background: #ffffff;
   border: 0.516669px solid #1a2236;
   margin-left: 10px;
+
+  position: relative;
+  top: 43px;
 }
 
 .component {
@@ -276,6 +351,16 @@ h2 {
   left: 0;
   margin-top: -220px;
   border: 0.3333px solid rgb(255 255 255 / 10%);
+}
+
+.modal-img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  top: 50px;
 }
 
 .box {
@@ -729,6 +814,7 @@ h4 {
   .p-desktop,
   .img-form,
   .six-desktop,
+  .prev-btn,
   .logo-form-desk,
   .dot-projects,
   .mobile-menu {
