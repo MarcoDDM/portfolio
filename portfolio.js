@@ -250,24 +250,24 @@ const showModal = (id) => {
         </div>
       </div>
       <div class="modal-desktop">
-        <button id="closeModalX" onclick="closeModal()" class="close-modal close">&times</button>
-        <h3 class="project-title-modal">${projectInfo.name}</h3>
-        <ul class="card-tech-modal">
+        <button onclick="closeModal()" class="close-modal closeDsk">&times</button>
+        <h3 class="title-modal-desktop">${projectInfo.name}</h3>
+        <ul class="card-desktop-keywords">
           ${projectInfo.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
         </ul>
-        <img class="project-image modal-img" src="${projectInfo.image}" alt="${projectInfo.alt}">
-        <p class="project-description">${projectInfo.description}</p>
+        <img class="project-image modal-img modal-img-dsk" src="${projectInfo.image}" alt="${projectInfo.alt}">
+        <p class="project-description-dsk">${projectInfo.description}</p>
         <div class="btns-modal">
-          <button class="btn-modal seeLive">See live
+          <button class="btn-modal seeLiveDsk">See live
             <img class="iconModal" src="">
           </button>
-          <button class="btn-modal seeSource">See source
+          <button class="btn-modal seeSourceDsk">See source
             <img class="iconModal" src="">
           </button>
         </div>
-        <div class="next-prev-proj">
-          <button class="prev-btn"> &larr; Previous project</button>
-          <button class="prev-btn">Next Project &rarr;</button>
+        <div class="">
+          <button class="prev-btn-dsk"> &larr; Previous project</button>
+          <button class="next-btn-dsk">Next Project &rarr;</button>
         </div>
       </div>
     `;

@@ -260,6 +260,15 @@ h2 {
   left: 325px;
 }
 
+.closeDsk {
+  border: none;
+  font-size: 80px;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  top: 40px;
+  left: 1300px;
+}
+
 .project-title-modal {
   position: absolute;
   width: 264px;
@@ -817,9 +826,13 @@ h4 {
   .six-desktop,
   .prev-btn,
   .logo-form-desk,
+  .seeLiveDsk,
+  .seeSourceDsk,
+  .prev-btn-dsk,
+  .next-btn-dsk,
   .dot-projects,
-  .modal-content,
   .modal-desktop,
+  .modal-img-dsk,
   .mobile-menu {
     display: none;
   }
@@ -841,6 +854,7 @@ h4 {
   .mobile-menu,
   .mobile-dot,
   .modal-content,
+  .modal-img,
   .menu-mobile-down,
   .mobile-dot-2 {
     display: none;
@@ -1129,13 +1143,154 @@ h4 {
 
   .modal-desktop {
     position: absolute;
-    width: 1300px;
+    width: 1400px;
     height: 1711px;
     left: 70px;
-    top: 70px;
     z-index: 2;
     background: #ffffff;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .title-modal-desktop {
+    position: absolute;
+    width: 726px;
+    height: 48px;
+    left: 46px;
+    top: 0px;
+    color: #000;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80%;
+  }
+
+  .card-desktop-keywords {
+    list-style-type: none;
+    position: relative;
+    top: 100px;
+  }
+
+  .card-desktop-keywords li {
+    display: inline;
+    position: relative;
+    height: 16px;
+    left: 25px;
+    top: -60px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    /* identical to box height, or 16px */
+    border: 1px solid #1a2236;
+    color: #1a2236;
+    padding: 10px 10px;
+    margin-right: 20px;
+  }
+
+  .modal-img-dsk {
+    display: flex;
+    top: 71px;
+  }
+
+  .project-description-dsk {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    width: 650px;
+    height: 216px;
+    left: 370px;
+    top: 1118px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #1a2236;
+  }
+
+  .seeLiveDsk {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 51px;
+    left: 370px;
+    top: 1374px;
+
+    border: 1px solid #1a2236;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #1a2236;
+  }
+
+  .seeSourceDsk {
+    position: absolute;
+    width: 246px;
+    height: 51px;
+    left: 646px;
+    top: 1374px;
+
+    background: #1a2236;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .prev-btn-dsk {
+    position: absolute;
+    display: inline-flex;
+    height: 27px;
+    left: 360px;
+    top: 1500px;
+    border: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #1a2236;
+  }
+
+  .next-btn-dsk {
+    position: absolute;
+    display: inline-flex;
+    height: 27px;
+    left: 875px;
+    top: 1500px;
+    border: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
   }
 
   .geometry-center {
