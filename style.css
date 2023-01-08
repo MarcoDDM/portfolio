@@ -240,10 +240,14 @@ h2 {
 .modal-content {
   background-color: azure;
   height: 170vh;
-  position: absolute;
-  width: 375px;
+  position: relative;
+  width: 360px;
   z-index: 4;
-  top: 0;
+  left: 10px;
+  display: list-item;
+  margin-top: -50px;
+  margin: 0 auto;
+  top: 25%;
 }
 
 .card-tech-modal {
@@ -266,6 +270,8 @@ h2 {
   position: relative;
   top: 40px;
   left: 90%;
+  background-color: white;
+  z-index: 7;
 }
 
 .project-title-modal {
@@ -328,6 +334,9 @@ h2 {
   margin-top: 29px;
   display: flex;
   padding: 9px 82px 9px 82px;
+}
+
+.btn-nxt {
 }
 
 .card-tech-modal li {
@@ -659,10 +668,7 @@ h4 {
   height: 56px;
   left: 16px;
   top: 4794px;
-  font-family:
-    "Playfair Display",
-    "Trebuchet MS",
-    "Lucida Sans Unicode",
+  font-family: "Playfair Display", "Trebuchet MS", "Lucida Sans Unicode",
     sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -829,6 +835,7 @@ h4 {
   .dot-projects,
   .modal-desktop,
   .modal-img-dsk,
+  .closeDsk,
   .mobile-menu {
     display: none;
   }
@@ -1157,21 +1164,18 @@ h4 {
 
   .modal-desktop {
     position: absolute;
-    width: 100%;
-    height: 1711px;
+    width: 90%;
+    height: 1600px;
     left: 70px;
     z-index: 2;
     background: #fff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
-    justify-content: center;
-    align-items: center;
-    margin: auto;
   }
 
   .title-modal-desktop {
-    position: absolute;
-    width: 726px;
-    height: 48px;
+    position: relative;
+    width: 90%;
+    height: 100px;
     left: 46px;
     top: 0;
     color: #000;
@@ -1191,376 +1195,394 @@ h4 {
   .modal-img-dsk {
     display: flex;
     top: 71px;
+    width: 80%;
+    height: 40%;
   }
 
-  .project-description-dsk {
-    position: absolute;
-    align-items: center;
-    justify-content: center;
+  .btns-modal {
     display: flex;
-    margin: auto;
-    width: 650px;
-    height: 216px;
-    left: 370px;
-    top: 1118px;
-    font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    color: #1a2236;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
   }
+}
 
-  .seeLiveDsk {
-    box-sizing: border-box;
-    position: absolute;
-    width: 246px;
-    height: 51px;
-    left: 370px;
-    top: 1374px;
-    border: 1px solid #1a2236;
-    font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
+.project-description-dsk {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  width: 650px;
+  height: 216px;
+  left: 370px;
+  top: 1118px;
+  font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1a2236;
+}
 
-    /* identical to box height */
+.seeLiveDsk {
+  box-sizing: border-box;
+  width: 246px;
+  height: 51px;
+  top: 1374px;
+  border: 1px solid #1a2236;
+  font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
 
-    text-align: center;
-    color: #1a2236;
-  }
+  /* identical to box height */
 
-  .seeSourceDsk {
-    position: absolute;
-    width: 246px;
-    height: 51px;
-    left: 646px;
-    top: 1374px;
-    background: #1a2236;
-    font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
+  text-align: center;
+  color: #1a2236;
+}
 
-    /* identical to box height */
+.seeSourceDsk {
+  width: 246px;
+  height: 51px;
+  top: 1374px;
+  background: #1a2236;
+  font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
 
-    text-align: center;
-    color: #fff;
-  }
+  /* identical to box height */
 
-  .prev-btn-dsk {
-    position: absolute;
-    display: inline-flex;
-    height: 27px;
-    left: 360px;
-    top: 1500px;
-    border: 0;
-    font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 27px;
+  text-align: center;
+  color: #fff;
+}
 
-    /* identical to box height */
+.btn-nxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -1406px;
+  z-index: 7;
+}
 
-    color: #1a2236;
-  }
+.prev-btn-dsk {
+  position: absolute;
+  display: inline-flex;
+  height: 27px;
+  top: 1500px;
+  border: 0;
+  font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
 
-  .next-btn-dsk {
-    position: absolute;
-    display: inline-flex;
-    height: 27px;
-    left: 875px;
-    top: 1500px;
-    border: 0;
-    font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 27px;
-    color: #1a2236;
-  }
+  margin-right: 250px;
 
-  .geometry-center {
-    position: absolute;
-    width: 511px;
-    height: 350px;
-    left: 552px;
-    top: 1730px;
-  }
+  /* identical to box height */
 
-  .pc-left {
-    position: absolute;
-    left: 0;
-    top: 1775px;
-  }
+  color: #1a2236;
+  background-color: white;
+}
 
-  .pc-left img {
-    width: 540px;
-    height: 322px;
-  }
+.next-btn-dsk {
+  position: absolute;
+  display: inline-flex;
+  height: 27px;
+  top: 1500px;
+  border: 0;
+  font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1a2236;
 
-  .pc-left-bigger {
-    position: absolute;
-    width: 800px;
-    height: 465px;
-    left: 0;
-    top: 2095px;
-  }
+  margin-left: 250px;
+  background-color: white;
+}
 
-  .pc-right-squares {
-    position: absolute;
-    width: 639.75px;
-    height: 275.42px;
-    left: 873px;
-    top: 2310px;
-  }
+.geometry-center {
+  position: absolute;
+  width: 511px;
+  height: 350px;
+  left: 552px;
+  top: 1730px;
+}
 
-  .dot-right-yellow {
-    position: absolute;
-    width: 87.69px;
-    height: 87.71px;
-    left: 783.31px;
-    top: 2584px;
-  }
+.pc-left {
+  position: absolute;
+  left: 0;
+  top: 1775px;
+}
 
-  .pc-right-yellow {
-    position: absolute;
-    width: 465px;
-    height: 270px;
-    left: 870px;
-    top: 2584px;
-  }
+.pc-left img {
+  width: 540px;
+  height: 322px;
+}
 
-  .pc-left-squares {
-    position: absolute;
-    width: 211.7px;
-    height: 124.04px;
-    left: 0;
-    top: 2584px;
-  }
+.pc-left-bigger {
+  position: absolute;
+  width: 800px;
+  height: 465px;
+  left: 0;
+  top: 2095px;
+}
 
-  .about h1 {
-    position: absolute;
-    width: 295px;
-    height: 110px;
-    left: 834px;
-    top: 2960px;
-    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 110px;
-    line-height: 100%;
-  }
+.pc-right-squares {
+  position: absolute;
+  width: 639.75px;
+  height: 275.42px;
+  left: 873px;
+  top: 2310px;
+}
 
-  .about p {
-    position: absolute;
-    width: 446px;
-    height: 84px;
-    left: 834px;
-    top: 3180px;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #1a2236;
-  }
+.dot-right-yellow {
+  position: absolute;
+  width: 87.69px;
+  height: 87.71px;
+  left: 783.31px;
+  top: 2584px;
+}
 
-  .about .cv {
-    box-sizing: border-box;
-    position: absolute;
-    width: 254px;
-    height: 70px;
-    left: 834px;
-    top: 3340px;
-  }
+.pc-right-yellow {
+  position: absolute;
+  width: 465px;
+  height: 270px;
+  left: 870px;
+  top: 2584px;
+}
 
-  .languages {
-    position: absolute;
-    width: 290px;
-    height: 290px;
-    left: 160px;
-    top: 3046px;
-  }
+.pc-left-squares {
+  position: absolute;
+  width: 211.7px;
+  height: 124.04px;
+  left: 0;
+  top: 2584px;
+}
 
-  .languages img {
-    position: relative;
-    width: 102px;
-    height: 102px;
-    left: -41px;
-    top: -40px;
-  }
+.about h1 {
+  position: absolute;
+  width: 295px;
+  height: 110px;
+  left: 834px;
+  top: 2960px;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 100%;
+}
 
-  .frameworks {
-    position: absolute;
-    width: 290px;
-    height: 290px;
-    left: 448px;
-    top: 3046px;
-  }
+.about p {
+  position: absolute;
+  width: 446px;
+  height: 84px;
+  left: 834px;
+  top: 3180px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+}
 
-  .frameworks img {
-    height: auto;
-    padding-left: 234px;
-    margin-top: -60px;
-  }
+.about .cv {
+  box-sizing: border-box;
+  position: absolute;
+  width: 254px;
+  height: 70px;
+  left: 834px;
+  top: 3340px;
+}
 
-  .skills {
-    position: absolute;
-    width: 290px;
-    height: 290px;
-    left: 160px;
-    top: 3335px;
-    background: #febf52;
-  }
+.languages {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  left: 160px;
+  top: 3046px;
+}
 
-  .skills img {
-    height: auto;
-    padding-left: 189px;
-    margin-top: -68px;
-  }
+.languages img {
+  position: relative;
+  width: 102px;
+  height: 102px;
+  left: -41px;
+  top: -40px;
+}
 
-  .dots-teal {
-    position: absolute;
-    width: 222.02px;
-    height: 222px;
-    left: 516px;
-    top: 3410px;
-  }
+.frameworks {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  left: 448px;
+  top: 3046px;
+}
 
-  .logo-form-mobile {
-    display: none;
-  }
+.frameworks img {
+  height: auto;
+  padding-left: 234px;
+  margin-top: -60px;
+}
 
-  .form {
-    margin: 0 -8px;
-    padding: 0 8px;
-    background-color: #324344;
-  }
+.skills {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  left: 160px;
+  top: 3335px;
+  background: #febf52;
+}
 
-  .form h1 {
-    position: absolute;
-    width: 548px;
-    height: 110px;
-    left: 446px;
-    top: 3850px;
-    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 110px;
-    line-height: 100%;
+.skills img {
+  height: auto;
+  padding-left: 189px;
+  margin-top: -68px;
+}
 
-    /* identical to box height, or 110px */
+.dots-teal {
+  position: absolute;
+  width: 222.02px;
+  height: 222px;
+  left: 516px;
+  top: 3410px;
+}
 
-    text-align: center;
-    color: #1a2236;
-  }
+.logo-form-mobile {
+  display: none;
+}
 
-  .form .p-desktop {
-    position: absolute;
-    width: 548px;
-    height: 63px;
-    left: 446px;
-    top: 4100px;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.01em;
-    color: #1a2236;
-  }
+.form {
+  margin: 0 -8px;
+  padding: 0 8px;
+  background-color: #324344;
+}
 
-  .form .p-mobile {
-    display: none;
-  }
+.form h1 {
+  position: absolute;
+  width: 548px;
+  height: 110px;
+  left: 446px;
+  top: 3850px;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 100%;
 
-  .form .logo-form-desk {
-    position: absolute;
-    height: 350px;
-    width: 263px;
-    left: 0;
-    top: 3782px;
-  }
+  /* identical to box height, or 110px */
 
-  .form .form-start .name {
-    box-sizing: border-box;
-    position: absolute;
-    width: 254px;
-    height: 60px;
-    left: 449px;
-    top: 4245px;
-    background: #fff;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-  }
+  text-align: center;
+  color: #1a2236;
+}
 
-  .form .form-start .email {
-    box-sizing: border-box;
-    position: absolute;
-    width: 253px;
-    height: 60px;
-    left: 738px;
-    top: 4245px;
-    background: #fff;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-  }
+.form .p-desktop {
+  position: absolute;
+  width: 548px;
+  height: 63px;
+  left: 446px;
+  top: 4100px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
 
-  .form .form-start textarea.message {
-    box-sizing: border-box;
-    position: absolute;
-    width: 542px;
-    height: 140px;
-    left: 449px;
-    top: 4347px;
-    background: #fff;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-  }
+.form .p-mobile {
+  display: none;
+}
 
-  .form .form-start button.start {
-    box-sizing: border-box;
-    position: absolute;
-    width: 254px;
-    height: 70px;
-    left: 593px;
-    top: 4527px;
-    background: #1a2236;
-  }
+.form .logo-form-desk {
+  position: absolute;
+  height: 350px;
+  width: 263px;
+  left: 0;
+  top: 3782px;
+}
 
-  .footer {
-    position: absolute;
-    width: 100%;
-    height: 123px;
-    left: 0;
-    top: 4729px;
-    background: #1a2236;
-  }
+.form .form-start .name {
+  box-sizing: border-box;
+  position: absolute;
+  width: 254px;
+  height: 60px;
+  left: 449px;
+  top: 4245px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
 
-  .form .img-form img {
-    position: absolute;
-    width: 350.75px;
-    height: 350.84px;
-    left: 1089px;
-    top: 4342px;
-  }
+.form .form-start .email {
+  box-sizing: border-box;
+  position: absolute;
+  width: 253px;
+  height: 60px;
+  left: 738px;
+  top: 4245px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
 
-  .footer .resume {
-    position: absolute;
-    width: 144px;
-    height: 27px;
-    left: 160px;
-    top: 25px;
-  }
+.form .form-start textarea.message {
+  box-sizing: border-box;
+  position: absolute;
+  width: 542px;
+  height: 140px;
+  left: 449px;
+  top: 4347px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
 
-  .footer .social {
-    position: absolute;
-    float: right;
-    left: 950px;
-    top: 50px;
-  }
+.form .form-start button.start {
+  box-sizing: border-box;
+  position: absolute;
+  width: 254px;
+  height: 70px;
+  left: 593px;
+  top: 4527px;
+  background: #1a2236;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 123px;
+  left: 0;
+  top: 4729px;
+  background: #1a2236;
+}
+
+.form .img-form img {
+  position: absolute;
+  width: 350.75px;
+  height: 350.84px;
+  left: 1089px;
+  top: 4342px;
+}
+
+.footer .resume {
+  position: absolute;
+  width: 144px;
+  height: 27px;
+  left: 160px;
+  top: 25px;
+}
+
+.footer .social {
+  position: absolute;
+  float: right;
+  left: 950px;
+  top: 50px;
 }

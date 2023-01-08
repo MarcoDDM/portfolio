@@ -263,7 +263,7 @@ const showModal = (id) => {
             <img class="iconModal" src="">
           </button>
         </div>
-        <div class="">
+        <div class="btn-nxt">
           <button class="prev-btn-dsk"> &larr; Previous project</button>
           <button class="next-btn-dsk">Next Project &rarr;</button>
         </div>
